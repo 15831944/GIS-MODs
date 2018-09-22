@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2012 (legend) 使用XMLSpy vqwer编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by legend (qwer) -->
+<Rule>
+	<DictionaryRule>
+		<Dictionary DictID="JXLX" DictName="界线类型代码表">
+			<CodeNames>
+				<CodeName Code="250200" Name="海岸线">
+					<CodeNames>
+						<CodeName Code="250201" Name="大潮平均高潮线"/>
+						<CodeName Code="250202" Name="零米等深线"/>
+						<CodeName Code="250203" Name="江河入海口陆海分界线"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="620200" Name="国界"/>
+				<CodeName Code="630200" Name="省、自治区、直辖市界"/>
+				<CodeName Code="640200" Name="地区、自治州、地级市界"/>
+				<CodeName Code="650200" Name="县、区、旗、县级市界"/>
+				<CodeName Code="660200" Name="街道、乡、（镇）界"/>
+				<CodeName Code="670402" Name="开发区、保税区界"/>
+				<CodeName Code="670500" Name="村界"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JXXZ" DictName="界线性质代码表">
+			<CodeNames>
+				<CodeName Code="600001" Name="已定界"/>
+				<CodeName Code="600002" Name="未定界"/>
+				<CodeName Code="600003" Name="争议界"/>
+				<CodeName Code="600004" Name="工作界"/>
+				<CodeName Code="600009" Name="其他"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="DLBZQZ" DictName="地类备注取值代码表">
+			<CodeNames>
+				<CodeName Code="10" Name="批而未用"/>
+				<CodeName Code="20" Name="违法用地"/>
+				<CodeName Code="30" Name="可调整耕地"/>
+				<CodeName Code="99" Name="其他"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JSZHFLCLLX" DictName="基数转换分类处理类型代码表">
+			<CodeNames>
+				<CodeName Code="A" Name="可调整地类转换为旱地"/>
+				<CodeName Code="B" Name="整理开发复垦等地块转换"/>
+				<CodeName Code="C" Name="批而未建（包含违法补办）转换"/>
+				<CodeName Code="D1" Name="采矿用地细分为盐田（2005年更新调查中认定盐田）"/>
+				<CodeName Code="D2" Name="采矿用地细分出盐田（2005年新增盐田）"/>
+				<CodeName Code="E" Name="风景名胜及特殊用地细分出特殊用地"/>
+				<CodeName Code="F" Name="建成区范围内建设用地转换为城镇用地"/>
+				<CodeName Code="G" Name="建成区范围外农村居民点用地转换为其他独立建设用地"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="TDYTQLX" DictName="土地用途区类型代码表">
+			<CodeNames>
+				<CodeName Code="010" Name="基本农田保护区">
+					<CodeNames>
+						<CodeName Code="011" Name="永久基本农田示范区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="020" Name="一般农地区">
+					<CodeNames>
+						<CodeName Code="021" Name="园地区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="030" Name="城镇建设用地区">
+					<CodeNames>
+						<CodeName Code="031" Name="保留城镇建设用地区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="040" Name="村镇建设用地区">
+					<CodeNames>
+						<CodeName Code="041" Name="保留村镇建设用地区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="050" Name="独立工矿区">
+					<CodeNames>
+						<CodeName Code="051" Name="保留独立工矿区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="060" Name="风景旅游用地区">
+					<CodeNames>
+						<CodeName Code="061" Name="风景旅游用地核心区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="070" Name="生态环境安全控制区">
+					<CodeNames>
+						<CodeName Code="071" Name="自然保护区核心区"/>
+						<CodeName Code="072" Name="列入省级以上保护名录野生动植物自然栖息地"/>
+						<CodeName Code="073" Name="水源保护区核心区"/>
+						<CodeName Code="074" Name="主要河湖蓄滞洪区"/>
+						<CodeName Code="075" Name="地质灾害高危险地区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="080" Name="自然与文化遗产保护区">
+					<CodeNames>
+						<CodeName Code="081" Name="地质公园"/>
+						<CodeName Code="082" Name="森林公园"/>
+						<CodeName Code="083" Name="自然与文化遗产保护核心区"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="090" Name="林业用地区">
+					<CodeNames>
+						<CodeName Code="091" Name="生态林区"/>
+					</CodeNames>
+				</CodeName>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JSYDGZBJLX" DictName="建设用地管制边界类型代码表">
+			<CodeNames>
+				<CodeName Code="010" Name="规模边界"/>
+				<CodeName Code="020" Name="扩展边界"/>
+				<CodeName Code="030" Name="禁建边界">
+					<CodeNames>
+						<CodeName Code="031" Name="生态保护红线"/>
+						<CodeName Code="032" Name="永久基本农田红线"/>
+					</CodeNames>
+				</CodeName>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JSYDGZQLX" DictName="建设用地管制区类型代码表">
+			<CodeNames>
+				<CodeName Code="010" Name="允许建设区"/>
+				<CodeName Code="020" Name="有条件建设区"/>
+				<CodeName Code="030" Name="限制建设用地区"/>
+				<CodeName Code="040" Name="禁止建设用地区">
+					<CodeNames>
+						<CodeName Code="041" Name="自然保护区核心区"/>
+						<CodeName Code="042" Name="森林公园"/>
+						<CodeName Code="043" Name="地质公园"/>
+						<CodeName Code="044" Name="列入省级以上保护名录野生动植物自然栖息地"/>
+						<CodeName Code="045" Name="水源保护核心区"/>
+						<CodeName Code="046" Name="主要河湖蓄滞洪区"/>
+						<CodeName Code="047" Name="地质灾害高危险地区"/>
+						<CodeName Code="048" Name="永久基本农田示范区"/>
+						<CodeName Code="049" Name="其他保护区"/>
+					</CodeNames>
+				</CodeName>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JSYDGZQSM" DictName="建设用地管制区说明">
+			<CodeNames>
+				<CodeName Code="1" Name="城镇允许建设用地区或城镇有条件建设用地区"/>
+				<CodeName Code="2" Name="农村允许建设用地区"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="TDZZLX" DictName="土地整治类型代码表">
+			<CodeNames>
+				<CodeName Code="01" Name="农用地整理"/>
+				<CodeName Code="02" Name="建设用地整理"/>
+				<CodeName Code="03" Name="宜耕后备资源开发"/>
+				<CodeName Code="04" Name="土地复垦"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="ZDJSXMLX" DictName="重点建设项目类型代码表">
+			<CodeNames>
+				<CodeName Code="01" Name="能源"/>
+				<CodeName Code="02" Name="交通"/>
+				<CodeName Code="03" Name="水利"/>
+				<CodeName Code="04" Name="电力"/>
+				<CodeName Code="05" Name="环保"/>
+				<CodeName Code="99" Name="其他"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="ZDJSXMJSXZ" DictName="重点建设项目建设性质代码表">
+			<CodeNames>
+				<CodeName Code="01" Name="新建"/>
+				<CodeName Code="02" Name="改建"/>
+				<CodeName Code="03" Name="扩建"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="NYDDB" DictName="农用地等别代码表">
+			<CodeNames>
+				<CodeName Code="01" Name="一等"/>
+				<CodeName Code="02" Name="二等"/>
+				<CodeName Code="03" Name="三等"/>
+				<CodeName Code="04" Name="四等"/>
+				<CodeName Code="05" Name="五等"/>
+				<CodeName Code="06" Name="六等"/>
+				<CodeName Code="07" Name="七等"/>
+				<CodeName Code="08" Name="八等"/>
+				<CodeName Code="09" Name="九等"/>
+				<CodeName Code="10" Name="十等"/>
+				<CodeName Code="11" Name="十一等"/>
+				<CodeName Code="12" Name="十二等"/>
+				<CodeName Code="13" Name="十三等"/>
+				<CodeName Code="14" Name="十四等"/>
+				<CodeName Code="15" Name="十五等"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JBNTTZLX" DictName="基本农田调整类型代码表">
+			<CodeNames>
+				<CodeName Code="00" Name="保留基本农田"/>
+				<CodeName Code="01" Name="调入基本农田"/>
+				<CodeName Code="02" Name="调出基本农田"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="XMXZ" DictName="项目性质">
+			<CodeNames>
+				<CodeName Code="1" Name="国家重点建设项目"/>
+				<CodeName Code="2" Name="省重点建设项目"/>
+				<CodeName Code="3" Name="一般建设项目"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="XMLX" DictName="项目类型">
+			<CodeNames>
+				<CodeName Code="1" Name="防灾救灾">
+					<CodeNames>
+						<CodeName Code="11" Name="地质灾害"/>
+						<CodeName Code="12" Name="台风"/>
+						<CodeName Code="13" Name="其他"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="2" Name="社会公益">
+					<CodeNames>
+						<CodeName Code="21" Name="军事"/>
+						<CodeName Code="22" Name="国防"/>
+						<CodeName Code="23" Name="监教"/>
+						<CodeName Code="24" Name="教育"/>
+						<CodeName Code="25" Name="卫生"/>
+						<CodeName Code="26" Name="环保"/>
+						<CodeName Code="27" Name="其他"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="3" Name="基础设施">
+					<CodeNames>
+						<CodeName Code="31" Name="交通"/>
+						<CodeName Code="32" Name="水利"/>
+						<CodeName Code="33" Name="能源"/>
+						<CodeName Code="34" Name="城镇基础设施"/>
+						<CodeName Code="35" Name="村庄基础设施"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="4" Name="工业">
+					<CodeNames>
+						<CodeName Code="41" Name="污染企业搬迁"/>
+						<CodeName Code="42" Name="其他"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="50" Name="旅游"/>
+				<CodeName Code="60" Name="其他"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GXFALX" DictName="更新方案类型">
+			<CodeNames>
+				<CodeName Code="1" Name="城乡建设用地规模边界调整"/>
+				<CodeName Code="2" Name="市县乡级预留指标追加"/>
+				<CodeName Code="3" Name="省级规划预留指标追加"/>
+				<CodeName Code="5" Name="低丘缓坡开发利用修改"/>
+				<CodeName Code="6" Name="报部修改"/>
+				<CodeName Code="7" Name="复垦修改"/>
+				<CodeName Code="8" Name="年度调节实施方案"/>
+				<CodeName Code="9" Name="修改规划范围"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="ZXXMLX" DictName="执行项目类型">
+			<CodeNames>
+				<CodeName Code="新增建设用地" Name="新增建设用地">
+					<CodeNames>
+						<CodeName Code="交通" Name="交通"/>
+						<CodeName Code="水利" Name="水利"/>
+						<CodeName Code="能源" Name="能源"/>
+						<CodeName Code="军事" Name="军事"/>
+						<CodeName Code="其他" Name="其他"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="补充耕地" Name="补充耕地">
+					<CodeNames>
+						<CodeName Code="1" Name="农用地整理"/>
+						<CodeName Code="2" Name="建设用地整理"/>
+						<CodeName Code="3" Name="宜耕后备资源开发"/>
+						<CodeName Code="4" Name="土地复垦补充耕地"/>
+					</CodeNames>
+				</CodeName>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GHJBXGLX" DictName="规划局部修改类型">
+			<CodeNames>
+				<CodeName Code="11" Name="城乡建设用地规模边界调整"/>
+				<CodeName Code="12" Name="市县乡级预留指标追加"/>
+				<CodeName Code="13" Name="省级规划预留指标追加"/>
+				<CodeName Code="14" Name="农村综合整治复垦调整"/>
+				<CodeName Code="15" Name="低丘缓坡开发利用调整"/>
+				<CodeName Code="17" Name="省市县乡预留指标追加和城乡建设用地规模边界调整"/>
+				<CodeName Code="18" Name="省市县乡级预留指标追加"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GDBHKZZBQXLX" DictName="耕地保护控制指标期限类型代码表">
+			<CodeNames>
+				<CodeName Code="01" Name="规划近期"/>
+				<CodeName Code="02" Name="规划期"/>
+				<CodeName Code="03" Name="规划期年均增减"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="XZJSYDKZZBLX" DictName="新增建设用地控制指标类型代码表">
+			<CodeNames>
+				<CodeName Code="10" Name="城乡建设用地">
+					<CodeNames>
+						<CodeName Code="11" Name="城镇"/>
+						<CodeName Code="12" Name="农村居民点"/>
+						<CodeName Code="13" Name="采矿用地和其他独立建设用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="20" Name="交通用地"/>
+				<CodeName Code="30" Name="水利设施"/>
+				<CodeName Code="40" Name="其他建设用地"/>
+				<CodeName Code="80" Name="总计"/>
+				<CodeName Code="90" Name="年均占用"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="ZBLY" DictName="指标来源">
+			<CodeNames>
+				<CodeName Code="1" Name="下达"/>
+				<CodeName Code="2" Name="追加"/>
+				<CodeName Code="3" Name="调剂"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="ZBYT" DictName="指标用途">
+			<CodeNames>
+				<CodeName Code="1" Name="欠发达专项扶持"/>
+				<CodeName Code="2" Name="集约用地分配"/>
+				<CodeName Code="3" Name="报国务院审批"/>
+				<CodeName Code="4" Name="其他"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="ZBLX" DictName="指标类型">
+			<CodeNames>
+				<CodeName Code="1" Name="计划指标"/>
+				<CodeName Code="2" Name="追加指标"/>
+				<CodeName Code="3" Name="补充耕地指标"/>
+				<CodeName Code="4" Name="其它"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="QSXZ" DictName="权属性质代码表">
+			<CodeNames>
+				<CodeName Code="10" Name="国有土地所有权"/>
+				<CodeName Code="20" Name="国有土地使用权"/>
+				<CodeName Code="30" Name="集体土地所有权">
+					<CodeNames>
+						<CodeName Code="31" Name="村民小组"/>
+						<CodeName Code="32" Name="村集体经济组织"/>
+						<CodeName Code="33" Name="乡集体经济组织"/>
+						<CodeName Code="34" Name="其它农民集体经济组织"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="40" Name="集体土地使用权"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="PDJB" DictName="坡度级别代码表">
+			<CodeNames>
+				<CodeName Code="1" Name="≤2°"/>
+				<CodeName Code="2" Name="（2°～6°）"/>
+				<CodeName Code="3" Name="（6°～15°）"/>
+				<CodeName Code="4" Name="（15°～25°）"/>
+				<CodeName Code="5" Name="＞25°"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GHDLDM" DictName="规划地类代码表">
+			<CodeNames>
+				<CodeName Code="1" Name="农用地">
+					<CodeNames>
+						<CodeName Code="11" Name="耕地">
+							<CodeNames>
+								<CodeName Code="111" Name="水田"/>
+								<CodeName Code="113" Name="旱地"/>
+							</CodeNames>
+						</CodeName>
+						<CodeName Code="12" Name="园地"/>
+						<CodeName Code="13" Name="林地"/>
+						<CodeName Code="14" Name="牧草地"/>
+						<CodeName Code="15" Name="其他农用地">
+							<CodeNames>
+								<CodeName Code="151" Name="设施农用地"/>
+								<CodeName Code="152" Name="农村道路"/>
+								<CodeName Code="153" Name="坑塘水面"/>
+								<CodeName Code="154" Name="农田水利用地"/>
+								<CodeName Code="155" Name="田坎"/>
+							</CodeNames>
+						</CodeName>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="2" Name="建设用地">
+					<CodeNames>
+						<CodeName Code="21" Name="城乡建设用地">
+							<CodeNames>
+								<CodeName Code="211" Name="城镇用地"/>
+								<CodeName Code="212" Name="农村居民点用地"/>
+								<CodeName Code="213" Name="采矿用地"/>
+								<CodeName Code="214" Name="其他独立建设用地"/>
+							</CodeNames>
+						</CodeName>
+						<CodeName Code="22" Name="交通水利用地">
+							<CodeNames>
+								<CodeName Code="221" Name="铁路用地"/>
+								<CodeName Code="222" Name="公路用地"/>
+								<CodeName Code="223" Name="民用机场用地"/>
+								<CodeName Code="224" Name="港口码头用地"/>
+								<CodeName Code="225" Name="管道运输用地"/>
+								<CodeName Code="226" Name="水库水面"/>
+								<CodeName Code="227" Name="水工建筑用地"/>
+							</CodeNames>
+						</CodeName>
+						<CodeName Code="23" Name="其他建设用地">
+							<CodeNames>
+								<CodeName Code="231" Name="风景名胜设施用地"/>
+								<CodeName Code="232" Name="特殊用地"/>
+								<CodeName Code="233" Name="盐田"/>
+							</CodeNames>
+						</CodeName>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="3" Name="其他土地">
+					<CodeNames>
+						<CodeName Code="31" Name="水域">
+							<CodeNames>
+								<CodeName Code="311" Name="河流水面"/>
+								<CodeName Code="312" Name="湖泊水面"/>
+								<CodeName Code="313" Name="滩涂"/>
+							</CodeNames>
+						</CodeName>
+						<CodeName Code="32" Name="自然保留地"/>
+					</CodeNames>
+				</CodeName>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GHYTDM" DictName="规划用途代码表">
+			<CodeNames>
+				<CodeName Code="G11" Name="基本农田">
+					<CodeNames>
+						<CodeName Code="G111" Name="示范区基本农田"/>
+						<CodeName Code="G112" Name="一般基本农田"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="N11" Name="一般农田">
+					<CodeNames>
+						<CodeName Code="N111" Name="一般农田"/>
+						<CodeName Code="N112" Name="新增一般农田"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="12" Name="园地">
+					<CodeNames>
+						<CodeName Code="X12" Name="园地"/>
+						<CodeName Code="G12" Name="新增园地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="13" Name="林地">
+					<CodeNames>
+						<CodeName Code="X13" Name="林地"/>
+						<CodeName Code="G13" Name="新增林地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="14" Name="牧草地">
+					<CodeNames>
+						<CodeName Code="X14" Name="牧草地"/>
+						<CodeName Code="G14" Name="新增牧草地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="15" Name="其他农用地">
+					<CodeNames>
+						<CodeName Code="X151" Name="设施农用地"/>
+						<CodeName Code="X152" Name="农村道路"/>
+						<CodeName Code="X153" Name="坑塘水面"/>
+						<CodeName Code="X154" Name="农田水利用地"/>
+						<CodeName Code="X155" Name="田坎"/>
+						<CodeName Code="G151" Name="新增设施农用地"/>
+						<CodeName Code="G152" Name="新增农村道路"/>
+						<CodeName Code="G153" Name="新增坑塘水面"/>
+						<CodeName Code="G154" Name="新增农田水利用地"/>
+						<CodeName Code="G155" Name="新增田坎"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="21" Name="城乡建设用地">
+					<CodeNames>
+						<CodeName Code="X211" Name="城镇用地"/>
+						<CodeName Code="X212" Name="农村居民点用地"/>
+						<CodeName Code="X213" Name="采矿用地"/>
+						<CodeName Code="X214" Name="其他独立建设用地"/>
+						<CodeName Code="G211" Name="新增城镇用地"/>
+						<CodeName Code="G212" Name="新增农村居民点用地"/>
+						<CodeName Code="G213" Name="新增采矿用地"/>
+						<CodeName Code="G214" Name="新增其他独立建设用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="22" Name="交通水利用地">
+					<CodeNames>
+						<CodeName Code="X221" Name="铁路用地"/>
+						<CodeName Code="X222" Name="公路用地"/>
+						<CodeName Code="X223" Name="民用机场用地"/>
+						<CodeName Code="X224" Name="港口码头用地"/>
+						<CodeName Code="X225" Name="管道运输用地"/>
+						<CodeName Code="X226" Name="水库水面"/>
+						<CodeName Code="X227" Name="水工建设用地"/>
+						<CodeName Code="G221" Name="新增铁路用地"/>
+						<CodeName Code="G222" Name="新增公路用地"/>
+						<CodeName Code="G223" Name="新增民用机场用地"/>
+						<CodeName Code="G224" Name="新增港口码头用地"/>
+						<CodeName Code="G225" Name="新增管道运输用地"/>
+						<CodeName Code="G226" Name="新增水库水面"/>
+						<CodeName Code="G227" Name="新增水工建设用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="23" Name="其他建设用地">
+					<CodeNames>
+						<CodeName Code="X231" Name="风景名胜设施用地"/>
+						<CodeName Code="X232" Name="特殊用地"/>
+						<CodeName Code="X233" Name="盐田"/>
+						<CodeName Code="G231" Name="新增风景名胜设施用地"/>
+						<CodeName Code="G232" Name="新增特殊用地"/>
+						<CodeName Code="G233" Name="新增盐田"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="31" Name="水域">
+					<CodeNames>
+						<CodeName Code="X311" Name="河流水面"/>
+						<CodeName Code="X312" Name="湖泊水面"/>
+						<CodeName Code="X313" Name="滩涂"/>
+						<CodeName Code="G311" Name="新增河流水面"/>
+						<CodeName Code="G312" Name="新增湖泊水面"/>
+						<CodeName Code="G313" Name="新增滩涂"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="32" Name="自然保留地">
+					<CodeNames>
+						<CodeName Code="X32" Name="自然保留地"/>
+					</CodeNames>
+				</CodeName>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JNLX" DictName="基本农田类型">
+			<CodeNames>
+				<CodeName Code="1" Name="耕地"/>
+				<CodeName Code="2" Name="优质园地或坑塘水面"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="XZNTLX" DictName="新增农田类型">
+			<CodeNames>
+				<CodeName Code="01" Name="农用地整理"/>
+				<CodeName Code="02" Name="建设用地整理"/>
+				<CodeName Code="03" Name="宜耕后备资源开发"/>
+				<CodeName Code="04" Name="土地复垦"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GHDLBGXW" DictName="变更行为">
+			<CodeNames>
+				<CodeName Code="0" Name="灭失"/>
+				<CodeName Code="1" Name="规划地类代码发生变化"/>
+				<CodeName Code="2" Name="规划地类代码没有发生变化"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GHYTBGXW" DictName="变更行为">
+			<CodeNames>
+				<CodeName Code="0" Name="灭失"/>
+				<CodeName Code="1" Name="规划用途编码发生变化"/>
+				<CodeName Code="2" Name="规划用途编码没有发生变化"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="YTFQBGXW" DictName="变更行为">
+			<CodeNames>
+				<CodeName Code="0" Name="灭失"/>
+				<CodeName Code="1" Name="用途分区代码发生变化"/>
+				<CodeName Code="2" Name="用途分区代码没有发生变化"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="WFBB" DictName="是否违法补办">
+			<CodeNames>
+				<CodeName Code="0" Name="不是违法补办"/>
+				<CodeName Code="1" Name="违法补办"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="XMLB" DictName="项目类别">
+			<CodeNames>
+				<CodeName Code="1" Name="农用地整理项目"/>
+				<CodeName Code="2" Name="建设用地整理项目"/>
+				<CodeName Code="3" Name="宜耕后备资源开发项目"/>
+				<CodeName Code="4" Name="复垦项目"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="ZXLXBH" DictName="执行类别编号">
+			<CodeNames>
+				<CodeName Code="ZX1" Name="已批农转用执行项目"/>
+				<CodeName Code="ZX2" Name="已验收的补充耕地项目"/>
+				<CodeName Code="ZX3" Name="已批农村土地综合整治执行项目"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="SFGX" DictName="是否更新">
+			<CodeNames>
+				<CodeName Code="0" Name="不涉及更新"/>
+				<CodeName Code="1" Name="涉及更新"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="SFZXCQ" DictName="是否中心城区">
+			<CodeNames>
+				<CodeName Code="0" Name="非中心城区"/>
+				<CodeName Code="11" Name="县级中心城区"/>
+				<CodeName Code="21" Name="市本级中心城区"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GXLXBH" DictName="更新类别编号">
+			<CodeNames>
+				<CodeName Code="XG1" Name="已批农转用修改更新项目"/>
+				<CodeName Code="XG2" Name="规划局调报部审批项目"/>
+				<CodeName Code="XG3" Name="规划局调省级审批项目"/>
+				<CodeName Code="XG4" Name="规划局调市级审批项目"/>
+				<CodeName Code="XG5" Name="农整复垦区用途调整项目"/>
+				<CodeName Code="XG6" Name="年度调节机制实施方案"/>
+				<CodeName Code="ZH" Name="置换"/>
+				<CodeName Code="JB" Name="基本农田补充"/>
+				<CodeName Code="GB" Name="耕地补充"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GXZT" DictName="更新状态">
+			<CodeNames>
+				<CodeName Code="0" Name="还未更新"/>
+				<CodeName Code="1" Name="更新成功"/>
+				<CodeName Code="2" Name="更新失败"/>
+				<CodeName Code="3" Name="正在更新中"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="GHYT" DictName="规划用途">
+			<CodeNames>
+				<CodeName Code="G111" Name="A1"/>
+				<CodeName Code="G112" Name="A2"/>
+				<CodeName Code="N111" Name="B1"/>
+				<CodeName Code="N112" Name="B2"/>
+				<CodeName Code="G211" Name="D1"/>
+				<CodeName Code="G212" Name="D2"/>
+				<CodeName Code="G213" Name="D3"/>
+				<CodeName Code="G214" Name="D4"/>
+				<CodeName Code="G221" Name="D5"/>
+				<CodeName Code="G222" Name="D6"/>
+				<CodeName Code="G223" Name="D7"/>
+				<CodeName Code="G224" Name="D8"/>
+				<CodeName Code="G225" Name="D9"/>
+				<CodeName Code="G226" Name="D10"/>
+				<CodeName Code="G227" Name="D11"/>
+				<CodeName Code="G231" Name="D12"/>
+				<CodeName Code="G232" Name="D13"/>
+				<CodeName Code="G233" Name="D14"/>
+			</CodeNames>
+		</Dictionary>
+		<Dictionary DictID="JTXMLX" DictName="局调项目类型">
+			<CodeNames>
+				<CodeName Code="1" Name="防火救灾">
+					<CodeNames>
+						<CodeName Code="0101" Name="地质灾害避让搬迁安置"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="2" Name="社会公益">
+					<CodeNames>
+						<CodeName Code="0201" Name="军事"/>
+						<CodeName Code="0202" Name="国防"/>
+						<CodeName Code="0203" Name="监教"/>
+						<CodeName Code="0204" Name="教育"/>
+						<CodeName Code="0205" Name="卫生"/>
+						<CodeName Code="0206" Name="环保"/>
+						<CodeName Code="0207" Name="其它"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="3" Name="基础设施">
+					<CodeNames>
+						<CodeName Code="0301" Name="交通"/>
+						<CodeName Code="0302" Name="水利"/>
+						<CodeName Code="0303" Name="能源"/>
+						<CodeName Code="0304" Name="城镇基础设施"/>
+						<CodeName Code="0305" Name="村庄基础设施"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="4" Name="工业">
+					<CodeNames>
+						<CodeName Code="0401" Name="污染企业搬迁"/>
+						<CodeName Code="0402" Name="其它"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="5" Name="旅游">
+					<CodeNames/>
+				</CodeName>
+				<CodeName Code="6" Name="其它">
+					<CodeNames/>
+				</CodeName>
+				<CodeName Code="05" Name="商服用地">
+					<CodeNames/>
+				</CodeName>
+				<CodeName Code="06" Name="工矿仓储用地">
+					<CodeNames>
+						<CodeName Code="061" Name="工业用地"/>
+						<CodeName Code="062" Name="采矿用地"/>
+						<CodeName Code="063" Name="仓储用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="07" Name="居住用地">
+					<CodeNames>
+						<CodeName Code="071" Name="城镇住宅用地"/>
+						<CodeName Code="072" Name="农村宅基地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="08" Name="公共管理与公共服务用地">
+					<CodeNames>
+						<CodeName Code="081" Name="机关团体用地"/>
+						<CodeName Code="082" Name="新闻出版用地"/>
+						<CodeName Code="083" Name="科教用地"/>
+						<CodeName Code="084" Name="医卫慈善用地"/>
+						<CodeName Code="085" Name="文体娱乐用地"/>
+						<CodeName Code="086" Name="公共设施用地"/>
+						<CodeName Code="087" Name="公园与绿地"/>
+						<CodeName Code="088" Name="风景名胜设施用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="09" Name="特殊用地">
+					<CodeNames>
+						<CodeName Code="091" Name="军事设施用地"/>
+						<CodeName Code="092" Name="使领馆用地"/>
+						<CodeName Code="093" Name="监教场所用地"/>
+						<CodeName Code="094" Name="宗教用地"/>
+						<CodeName Code="095" Name="殡葬用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="10" Name="交通运输用地">
+					<CodeNames>
+						<CodeName Code="101" Name="铁路用地"/>
+						<CodeName Code="102" Name="公路用地"/>
+						<CodeName Code="103" Name="街巷用地"/>
+						<CodeName Code="105" Name="机场用地"/>
+						<CodeName Code="106" Name="港口码头用地"/>
+						<CodeName Code="107" Name="管道运输用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="11" Name="水域及水利设施用地">
+					<CodeNames>
+						<CodeName Code="113" Name="水库水面"/>
+						<CodeName Code="118" Name="水工建筑物用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="12" Name="其它土地">
+					<CodeNames>
+						<CodeName Code="121" Name="空闲地"/>
+						<CodeName Code="122" Name="设施农用地"/>
+					</CodeNames>
+				</CodeName>
+				<CodeName Code="13" Name="公共设施用地">
+					<CodeNames>
+						<CodeName Code="131" Name="供应设施用地"/>
+						<CodeName Code="132" Name="环境设施用地"/>
+						<CodeName Code="133" Name="安全设施用地"/>
+					</CodeNames>
+				</CodeName>
+			</CodeNames>
+		</Dictionary>
+	</DictionaryRule>
+	<DataManageRule>
+		<BuildingRules>
+			<BuildingRule RuleName="规划库" DsName="TDGH">
+				<Layers>
+					<Layer LayerName="XZQ" AliasName="行政区" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MS" AliasName="描述" FieldType="字符串型" Length="250" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZRK" AliasName="人口" FieldType="长整型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Length="" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZQXZ" AliasName="行政区（乡镇）" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MS" AliasName="描述" FieldType="字符串型" Length="250" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZRK" AliasName="人口" FieldType="长整型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Length="" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="ZXCQ" AliasName="是否中心城区" FieldType="整型" Length="2" Scale="" Hidden="false" DictID="SFZXCQ"/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZQX" AliasName="行政区（县级）" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BZSJ" AliasName="编制时间" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GXSJ" AliasName="更新时间" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZQS" AliasName="行政区（市级）" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZQZ" AliasName="行政区（省级）" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZQJX" AliasName="行政区界线" ShapeType="线" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="JXLX" AliasName="界线类型" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID="JXLX"/>
+							<Field FieldName="JXXZ" AliasName="界线性质" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID="JXXZ"/>
+							<Field FieldName="JXSM" AliasName="界线说明" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZTB" AliasName="现状地类图斑" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLDM" AliasName="地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLMC" AliasName="地类名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="SQBM" AliasName="权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC" AliasName="权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="TBBH" AliasName="图斑编号" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PDJB" AliasName="坡度级别" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="PDJB"/>
+							<Field FieldName="TKXS" AliasName="田坎系数" FieldType="单精度型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="TBMJ" AliasName="图斑计算毛面积" FieldType="双精度型" Length="" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="KSXM" AliasName="应扣线状地物计算面积" FieldType="双精度型" Length="" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="KLWM" AliasName="应扣零星地物面积" FieldType="双精度型" Length="" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="KKSM" AliasName="应扣田坎计算面积" FieldType="双精度型" Length="" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="TBDLMJ" AliasName="图斑计算净面积" FieldType="双精度型" Length="" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZXW" AliasName="现状线状地物" ShapeType="线" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLDM" AliasName="地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLMC" AliasName="地类名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XWSC" AliasName="线状地物计算长度" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="XWKD" AliasName="线状地物宽度" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="XZDWMJ" AliasName="线状地物计算面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZDWMC" AliasName="线状地物名称" FieldType="字符串型" Length="60" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="SQBM1" AliasName="权属单位代码1" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC1" AliasName="权属单位名称1" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SQBM2" AliasName="权属单位代码2" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC2" AliasName="权属单位名称2" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KCTBBH1" AliasName="扣除图斑编号1" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KCXZQDM1" AliasName="扣除图斑行政区代码1" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="KCTBBH2" AliasName="扣除图斑编号2" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KCXZQDM2" AliasName="扣除图斑行政区代码2" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="KCXS" AliasName="扣除系数" FieldType="单精度型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM1" AliasName="乡镇代码1" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM2" AliasName="乡镇代码2" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZLW" AliasName="现状零星地物" ShapeType="点" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLDM" AliasName="地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLMC" AliasName="地类名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="SQMC" AliasName="权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SQBM" AliasName="权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SZTBBH" AliasName="所在图斑编号" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="LXDWMJ" AliasName="零星地物面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="XZJCQ" AliasName="现状建成区" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TBBH" AliasName="图斑编号" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JQDLTB" AliasName="基期地类图斑" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TBBH" AliasName="图斑编号" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLMC" AliasName="地类名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="TBMJ" AliasName="图斑面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="TBDLMJ" AliasName="图斑地类面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="DLBZ" AliasName="地类备注" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="DLBZQZ"/>
+							<Field FieldName="DLDM" AliasName="地类代码" FieldType="字符串型" Length="3" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQBM" AliasName="权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC" AliasName="权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="PDJB" AliasName="坡度级别" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="PDJB"/>
+							<Field FieldName="TKXS" AliasName="田坎系数" FieldType="单精度型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KSXM" AliasName="应扣线状地物计算面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="KLWM" AliasName="应扣零星地物面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="KKSM" AliasName="应扣田坎计算面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="规划期限" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JQXZDW" AliasName="基期线状地物" ShapeType="线" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLMC" AliasName="地类名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDWMJ" AliasName="线状地物面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZDWMC" AliasName="线状地物名称" FieldType="字符串型" Length="60" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DLDM" AliasName="地类代码" FieldType="字符串型" Length="3" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XWSC" AliasName="线状地物计算长度" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="XWKD" AliasName="线状地物宽度" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="SQBM1" AliasName="权属单位代码1" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC1" AliasName="权属单位名称1" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SQBM2" AliasName="权属单位代码2" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC2" AliasName="权属单位名称2" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KCTBBH1" AliasName="扣除图斑编号1" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KCXZQDM1" AliasName="扣除图斑行政区代码1" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="KCTBBH2" AliasName="扣除图斑编号2" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KCXZQDM2" AliasName="扣除图斑行政区代码2" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="KCXS" AliasName="扣除系数" FieldType="单精度型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM1" AliasName="乡镇代码1" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM2" AliasName="乡镇代码2" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JQLXDW" AliasName="基期零星地物" ShapeType="点" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="DLMC" AliasName="地类名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="LXDWMJ" AliasName="零星地物面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="DLDM" AliasName="地类代码" FieldType="字符串型" Length="3" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="SQMC" AliasName="权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SQBM" AliasName="权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SZTBBH" AliasName="所在图斑编号" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JQDLJX" AliasName="基期地类界线" ShapeType="线" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="BZNT" AliasName="已建标准农田" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="QKCXH" AliasName="区块次序号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QKBH" AliasName="区块编号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BZNTMJ" AliasName="标准农田面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="YSWH" AliasName="验收文号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMBAH" AliasName="项目备案号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="获取日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JSZH" AliasName="基数转换图斑" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DLDM" AliasName="转换前现状地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DLMC" AliasName="转换前现状地类名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YDLDM" AliasName="转换前规划地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YDLMC" AliasName="转换前规划地类名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZDLDM" AliasName="转换后规划地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZDLMC" AliasName="转换后规划地类名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="FLCL" AliasName="分类处理编号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZMCL" AliasName="证明材料" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DKBH" AliasName="地块编号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GBZJBNT" AliasName="已建成高标准基本农田" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="QKBH" AliasName="区块编号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMBAH" AliasName="项目备案号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YSWH" AliasName="验收文号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YSRQ" AliasName="验收日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="TDGHDL" AliasName="土地规划地类" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TBBH" AliasName="图斑编号" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHDLMC" AliasName="规划地类名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHDLMJ" AliasName="规划地类面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="GHDLDM" AliasName="规划地类代码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SQBM" AliasName="权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC" AliasName="权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="HQRQ" AliasName="规划期限" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FROMTIME" AliasName="起始时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TOTIME" AliasName="消亡时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHYT" AliasName="规划用途" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YTDKBH" AliasName="用途地块编号" FieldType="字符串型" Length="7" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTDM" AliasName="规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTBM" AliasName="规划用途编码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTMC" AliasName="规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JMJ" AliasName="净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="JNLX" AliasName="基本农田类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="JNLX"/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="规划期限" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZNTLX" AliasName="新增农田类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XZNTLX"/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FROMTIME" AliasName="起始时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TOTIME" AliasName="消亡时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="YGX" AliasName="规划用途预更新层" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="目标标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YTDKBH" AliasName="用途地块编号" FieldType="字符串型" Length="7" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTDM" AliasName="规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTBM" AliasName="规划用途编码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTMC" AliasName="规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FABSM" AliasName="方案标识码" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="JCSJ" AliasName="检查时间" FieldType="日期型" Length="" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="TDYTQ" AliasName="土地用途区" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TDYTQLXDM" AliasName="土地用途区类型代码" FieldType="字符串型" Length="3" Scale="" Hidden="true" DictID="TDYTQLX"/>
+							<Field FieldName="TDYTQBH" AliasName="土地用途区编号" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="TDYTQMJ" AliasName="土地用途区面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="TDYTQLX" AliasName="土地用途区类型" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID="TDYTQLX"/>
+							<Field FieldName="HQRQ" AliasName="规划期限" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JSYDGZBJ" AliasName="建设用地管制边界" ShapeType="线" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="GZBJLXDM" AliasName="管制边界类型代码" FieldType="字符串型" Length="7" Scale="" Hidden="false" DictID="JSYDGZBJLX"/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JSYDGZQ" AliasName="建设用地管制区" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="GZQLXDM" AliasName="管制区类型代码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID="JSYDGZQLX"/>
+							<Field FieldName="GZQMJ" AliasName="管制区面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID="JSYDGZQSM"/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FROMTIME" AliasName="起始时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TOTIME" AliasName="消亡时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="MZZDJSXM" AliasName="面状重点建设项目" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XMLXDM" AliasName="项目类型代码" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XMLX"/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="JSXZDM" AliasName="建设性质代码" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="ZDJSXMJSXZ"/>
+							<Field FieldName="JSNX" AliasName="建设年限" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YDZGM" AliasName="用地总规模" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD" AliasName="新增建设用地" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JSZYGD" AliasName="建设占用耕地" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SJCZ" AliasName="涉及村（镇）" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MS" AliasName="描述" FieldType="字符串型" Length="250" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHJBNTBHQ" AliasName="规划基本农田保护区" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="BHQBH" AliasName="保护区编号" FieldType="字符串型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BHQMJ" AliasName="保护区面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="NYDDBDM" AliasName="农用地等别代码" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="NYDDB"/>
+							<Field FieldName="NYDMJ" AliasName="农用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="GDMJ" AliasName="耕地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNTMJ" AliasName="基本农田面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHJBNTTZ" AliasName="规划基本农田调整" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TZLXDM" AliasName="调整类型代码" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="JBNTTZLX"/>
+							<Field FieldName="NYDDBDM" AliasName="农用地等别代码" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="NYDDB"/>
+							<Field FieldName="JQNDL" AliasName="基期年地类" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="TZMJ" AliasName="调整面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="YJJBNTSFQ" AliasName="永久基本农田示范区" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="QKBH" AliasName="区块编号" FieldType="字符串型" Length="16" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="KZBJM" AliasName="扩展边界面" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="YCXZJSYD" AliasName="预测新增建设用地" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YTDKBH" AliasName="用途地块编号" FieldType="字符串型" Length="7" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTDM" AliasName="规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTBM" AliasName="规划用途编码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTMC" AliasName="规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JMJ" AliasName="净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="JNLX" AliasName="基本农田类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="JNLX"/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="规划期限" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZNTLX" AliasName="新增农田类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XZNTLX"/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JBXGDL" AliasName="土地利用总体规划局部修改地类" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="BGXW" AliasName="变更行为" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="GHDLBGXW"/>
+							<Field FieldName="XMBH" AliasName="项目编号" FieldType="字符串型" Length="9" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XGLX" AliasName="修改类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="GHJBXGLX"/>
+							<Field FieldName="DKH" AliasName="地块号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="地块面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="QDLDKBH" AliasName="调整前地类地块编号" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QGHDLDM" AliasName="调整前规划地类代码" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QGDMJ" AliasName="调整前地块耕地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="QZQBM" AliasName="调整前行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="QZQMC" AliasName="调整前行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QSQBM" AliasName="调整前权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="QSQMC" AliasName="调整前权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QQSXZ" AliasName="调整前权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HDLDKBH" AliasName="调整后地类地块编号" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HGHDLDM" AliasName="调整后规划地类代码" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HGDMJ" AliasName="调整后地块耕地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="HZQBM" AliasName="调整后行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="HZQMC" AliasName="调整后行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HSQBM" AliasName="调整后权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="HSQMC" AliasName="调整后权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQSXZ" AliasName="调整后权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SBRQ" AliasName="上报日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZRQ" AliasName="批准日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JBXGYT" AliasName="土地利用总体规划局部修改用途" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="BGXW" AliasName="变更行为" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="GHYTBGXW"/>
+							<Field FieldName="XMBH" AliasName="项目编号" FieldType="字符串型" Length="9" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XGLX" AliasName="修改类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="GHJBXGLX"/>
+							<Field FieldName="DKH" AliasName="地块号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="地块面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="QYTDKBH" AliasName="调整前用途地块编号" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QGHYTDM" AliasName="调整前规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QGHYTMC" AliasName="调整前规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QJNLX" AliasName="调整前基本农田类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="JNLX"/>
+							<Field FieldName="QGDMJ" AliasName="调整前地块耕地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="QJNMJ" AliasName="调整前基本农田面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="HYTDKBH" AliasName="调整后用途地块编号" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HGHYTDM" AliasName="调整后规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HGHYTMC" AliasName="调整后规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HJNLX" AliasName="调整后基本农田类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="JNLX"/>
+							<Field FieldName="HGDMJ" AliasName="调整后地块耕地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="HJNMJ" AliasName="调整后基本农田面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SBRQ" AliasName="上报日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZRQ" AliasName="批准日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JBXGFQ" AliasName="土地利用总体规划局部修改分区" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="BGXW" AliasName="变更行为" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="YTFQBGXW"/>
+							<Field FieldName="XMBH" AliasName="项目编号" FieldType="字符串型" Length="9" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XGLX" AliasName="修改类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="GHJBXGLX"/>
+							<Field FieldName="XMXZ" AliasName="项目性质" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="XMXZ"/>
+							<Field FieldName="XMLX" AliasName="项目类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XMLX"/>
+							<Field FieldName="DKH" AliasName="地块号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="地块面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="QFQBH" AliasName="调整前用途区编号" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QFQDM" AliasName="调整前用途区代码" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QKJGZ" AliasName="调整前建设用地空间管制区" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HFQBH" AliasName="调整后用途区编号" FieldType="字符串型" Length="2" Scale="" Hidden="false"/>
+							<Field FieldName="HFQDM" AliasName="调整后用途区代码" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HKJGZ" AliasName="调整后建设用地空间管制区" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SBRQ" AliasName="上报日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZRQ" AliasName="批准日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GXSM" AliasName="更新时间" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHXZ" AliasName="规划选址" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XMBH" AliasName="项目编号" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMLX" AliasName="项目类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XMLX"/>
+							<Field FieldName="XMXZ" AliasName="项目性质" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="XMXZ"/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="获取日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JSYSDK" AliasName="建设用地预审" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMBH" AliasName="项目编号" FieldType="字符串型" Length="20" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMXZ" AliasName="项目性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XMXZ"/>
+							<Field FieldName="XMLX" AliasName="项目类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XMLX"/>
+							<Field FieldName="DKBH" AliasName="地块号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DKMJ" AliasName="地块面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="获取日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="NZSCDK" AliasName="农转用方案编制审查" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMBH" AliasName="项目编号" FieldType="字符串型" Length="20" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMXZ" AliasName="项目性质" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="XMXZ"/>
+							<Field FieldName="XMLX" AliasName="项目类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XMLX"/>
+							<Field FieldName="DKBH" AliasName="地块号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DKMJ" AliasName="地块面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="ZBLX" AliasName="指标类型" FieldType="整型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZBWH" AliasName="指标追加文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="WFBB" AliasName="是否违法补办" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="WFBB"/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="获取日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="BCGDDK" AliasName="补充耕地项目规划审查" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMLX" AliasName="项目类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XMLX"/>
+							<Field FieldName="XMLB" AliasName="项目类别" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="XMLB"/>
+							<Field FieldName="XMBH" AliasName="项目编号" FieldType="字符串型" Length="9" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DKBH" AliasName="地块号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="DKMJ" AliasName="地块面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="YSWH" AliasName="项目验收文号" FieldType="字符串型" Length="20" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZGDMJ" AliasName="新增耕地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJNMJ" AliasName="新增基本农田面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZBNMJ" AliasName="新增标准农田面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="获取日期" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县级代码" FieldType="字符串型" Length="6" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHZX" AliasName="规划执行" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区划代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区划名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMBSM" AliasName="项目标识码" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMLX" AliasName="项目类型" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID="ZXXMLX"/>
+							<Field FieldName="ZBLX" AliasName="指标类型" FieldType="字符串型" Length="20" Scale="" Hidden="false" DictID="ZBLX"/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZSJ" AliasName="批准时间" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZBWH" AliasName="指标追加文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YSWH" AliasName="验收文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZXLXBH" AliasName="执行类别编号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID="ZXLXBH"/>
+							<Field FieldName="SFGX" AliasName="是否更新" FieldType="整型" Length="1" Scale="" Hidden="false" DictID="SFGX"/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZXNF" AliasName="执行年份" FieldType="整型" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHGXDK" AliasName="规划更新地块" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区划代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区划名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YGHDLDM" AliasName="原规划地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YGHDLMC" AliasName="原规划地类名称" FieldType="字符串型" Length="20" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YYTDKBH" AliasName="原用途地块编号" FieldType="字符串型" Length="7" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YGHYTDM" AliasName="原规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YGHYTBM" AliasName="原规划用途编码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YGHYTMC" AliasName="原规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHDLDM" AliasName="规划地类代码" FieldType="字符串型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHDLMC" AliasName="规划地类名称" FieldType="字符串型" Length="20" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YTDKBH" AliasName="用途地块编号" FieldType="字符串型" Length="7" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTDM" AliasName="规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTBM" AliasName="规划用途编码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTMC" AliasName="规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMBSM" AliasName="项目标识码" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GXLXBH" AliasName="更新类别编号" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID="GXLXBH"/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="NYDMJ" AliasName="农用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="GDJMJ" AliasName="耕地净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JSYDMJ" AliasName="建设用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="WLYDMJ" AliasName="未利用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNTJMJ" AliasName="基本农田净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD1" AliasName="新增建设用地省级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD2" AliasName="新增建设用地市级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD3" AliasName="新增建设用地县级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD4" AliasName="新增建设用地乡级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT1" AliasName="基本农田省级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT2" AliasName="基本农田市级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT3" AliasName="基本农田县级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT4" AliasName="基本农田乡级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="YGZQDM" AliasName="原管制区代码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GZQLXDM" AliasName="管制区类型代码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="管制区类型说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHGXXM" AliasName="规划更新项目" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMMC" AliasName="项目名称" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMLX" AliasName="项目类型" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMXZ" AliasName="项目性质" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FABSM" AliasName="方案标识码" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="NYDMJ" AliasName="农用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="GDJMJ" AliasName="耕地净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JSYDMJ" AliasName="建设用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="WLYDMJ" AliasName="未利用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNTJMJ" AliasName="基本农田净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD1" AliasName="新增建设用地省级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD2" AliasName="新增建设用地市级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD3" AliasName="新增建设用地县级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD4" AliasName="新增建设用地乡级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT1" AliasName="基本农田省级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT2" AliasName="基本农田市级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT3" AliasName="基本农田县级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT4" AliasName="基本农田乡级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHGXFA" AliasName="规划更新方案" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FAMC" AliasName="方案名称" FieldType="字符串型" Length="300" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SLH" AliasName="受理号" FieldType="字符串型" Length="50" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FALX" AliasName="方案类型" FieldType="字符串型" Length="10" Scale="" Hidden="false" DictID="GXFALX"/>
+							<Field FieldName="PZJG" AliasName="批准机关" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="PZSJ" AliasName="批准时间" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SHIDM" AliasName="市代码" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SHIMC" AliasName="市名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XDM" AliasName="县代码" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XMC" AliasName="县名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SJZXCQ" AliasName="涉及中心城区" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="100" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="NYDMJ" AliasName="农用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="GDJMJ" AliasName="耕地净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JSYDMJ" AliasName="建设用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="WLYDMJ" AliasName="未利用地面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNTJMJ" AliasName="基本农田净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD1" AliasName="新增建设用地省级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD2" AliasName="新增建设用地市级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD3" AliasName="新增建设用地县级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="XZJSYD4" AliasName="新增建设用地乡级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT1" AliasName="基本农田省级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT2" AliasName="基本农田市级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT3" AliasName="基本农田县级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JBNT4" AliasName="基本农田乡级指标" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="GXSJ" AliasName="更新时间" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GXZT" AliasName="更新状态" FieldType="整型" Length="1" Scale="" Hidden="false" DictID="GXZT"/>
+							<Field FieldName="XMZMJ" AliasName="项目总面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="ZJFH" AliasName="注记" ShapeType="点" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="ZJNR" AliasName="注记内容" FieldType="字符串型" Length="60" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="ZT" AliasName="字体" FieldType="字符串型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YS" AliasName="颜色" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="BS" AliasName="磅数" FieldType="长整型" Length="4" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZ" AliasName="形状" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XHX" AliasName="下划线" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="KD" AliasName="宽度" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="GD" AliasName="高度" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="JG" AliasName="间隔" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="ZJDZXJXZB" AliasName="注记点左下角X坐标" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="ZJDZXJYZB" AliasName="注记点左下角Y坐标" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="ZJFX" AliasName="注记方向" FieldType="单精度型" Scale="1" Hidden="false" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+				</Layers>
+			</BuildingRule>
+			<BuildingRule RuleName="历史库" DsName="TDGH_H">
+				<Layers>
+					<Layer LayerName="TDGHDL_H" AliasName="土地规划地类历史层" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TBBH" AliasName="图斑编号" FieldType="字符串型" Length="8" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHDLMC" AliasName="规划地类名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHDLMJ" AliasName="规划地类面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="GHDLDM" AliasName="规划地类代码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="SQBM" AliasName="权属单位代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SQMC" AliasName="权属单位名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="QSXZ" AliasName="权属性质" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="QSXZ"/>
+							<Field FieldName="HQRQ" AliasName="规划期限" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FROMTIME" AliasName="起始时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TOTIME" AliasName="消亡时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="GHYT_H" AliasName="规划用途历史层" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="XZQMC" AliasName="行政区名称" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="YTDKBH" AliasName="用途地块编号" FieldType="字符串型" Length="7" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTDM" AliasName="规划用途代码" FieldType="字符串型" Length="5" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTBM" AliasName="规划用途编码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="GHYTMC" AliasName="规划用途名称" FieldType="字符串型" Length="25" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="MJ" AliasName="面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="JMJ" AliasName="净面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="BZ" AliasName="备注" FieldType="字符串型" Length="90" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="JNLX" AliasName="基本农田类型" FieldType="字符串型" Length="1" Scale="" Hidden="false" DictID="JNLX"/>
+							<Field FieldName="PZWH" AliasName="批准文号" FieldType="字符串型" Length="30" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="HQRQ" AliasName="规划期限" FieldType="日期型" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="XZNTLX" AliasName="新增农田类型" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID="XZNTLX"/>
+							<Field FieldName="XZDM" AliasName="乡镇代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FROMTIME" AliasName="起始时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TOTIME" AliasName="消亡时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+					<Layer LayerName="JSYDGZQ_H" AliasName="建设用地管制区历史层" ShapeType="面" HazZ="false" HazM="false">
+						<Fields>
+							<Field FieldName="BSM" AliasName="标识码" FieldType="长整型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="YSDM" AliasName="要素代码" FieldType="字符串型" Length="10" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="GZQLXDM" AliasName="管制区类型代码" FieldType="字符串型" Length="3" Scale="" Hidden="false" DictID="JSYDGZQLX"/>
+							<Field FieldName="GZQMJ" AliasName="管制区面积" FieldType="双精度型" Scale="4" Hidden="false" DictID=""/>
+							<Field FieldName="SM" AliasName="说明" FieldType="字符串型" Length="200" Scale="" Hidden="false" DictID="JSYDGZQSM"/>
+							<Field FieldName="XZQDM" AliasName="行政区代码" FieldType="字符串型" Length="12" Scale="" Hidden="false" DictID=""/>
+							<Field FieldName="FROMTIME" AliasName="起始时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="TOTIME" AliasName="消亡时间" FieldType="日期型" Scale="" Hidden="true" DictID=""/>
+							<Field FieldName="SJCJ" AliasName="数据层级" FieldType="字符串型" Length="2" Scale="" Hidden="false" DictID=""/>
+						</Fields>
+					</Layer>
+				</Layers>
+			</BuildingRule>
+		</BuildingRules>
+	</DataManageRule>
+</Rule>

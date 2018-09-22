@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqLandPlanCmd.ZoomToTopXZQ.1 = s 'ZoomToTopXZQ Class'
+	{
+		CLSID = s '{FF85703D-0050-4F0C-8654-BD5A87959FD3}'
+	}
+	GisqLandPlanCmd.ZoomToTopXZQ = s 'ZoomToTopXZQ Class'
+	{
+		CLSID = s '{FF85703D-0050-4F0C-8654-BD5A87959FD3}'
+		CurVer = s 'GisqLandPlanCmd.ZoomToTopXZQ.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {FF85703D-0050-4F0C-8654-BD5A87959FD3} = s 'ZoomToTopXZQ Class'
+		{
+			ProgID = s 'GisqLandPlanCmd.ZoomToTopXZQ.1'
+			VersionIndependentProgID = s 'GisqLandPlanCmd.ZoomToTopXZQ'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8D8A6990-8BAF-47B3-8D12-EB1432787AFD}'
+		}
+	}
+}

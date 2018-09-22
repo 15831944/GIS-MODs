@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqLandPlanPageLayOutCmd.LPZXCQ_ZTGH.1 = s 'LPZXCQ_ZTGHCmd Class'
+	{
+		CLSID = s '{A2FB7DBE-BE17-4786-A7D4-76AE09079B6E}'
+	}
+	GisqLandPlanPageLayOutCmd.LPZXCQ_ZTGHCm = s 'LPZXCQ_ZTGHCmd Class'
+	{
+		CLSID = s '{A2FB7DBE-BE17-4786-A7D4-76AE09079B6E}'
+		CurVer = s 'GisqLandPlanPageLayOutCmd.LPZXCQ_ZTGH.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {A2FB7DBE-BE17-4786-A7D4-76AE09079B6E} = s 'LPZXCQ_ZTGHCmd Class'
+		{
+			ProgID = s 'GisqLandPlanPageLayOutCmd.LPZXCQ_ZTGH.1'
+			VersionIndependentProgID = s 'GisqLandPlanPageLayOutCmd.LPZXCQ_ZTGHCm'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{2A7ED1CD-CCF5-44A4-BD26-D8A6467883A9}'
+		}
+	}
+}

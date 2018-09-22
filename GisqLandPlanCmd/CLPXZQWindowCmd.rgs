@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqLandPlanCmd.CLPXZQWindowCmd.1 = s 'CLPXZQWindowCmd Class'
+	{
+		CLSID = s '{D5A6C4C8-D5D9-4A67-B1BA-93AA2D47F22C}'
+	}
+	GisqLandPlanCmd.CLPXZQWindowCmd = s 'CLPXZQWindowCmd Class'
+	{
+		CLSID = s '{D5A6C4C8-D5D9-4A67-B1BA-93AA2D47F22C}'
+		CurVer = s 'GisqLandPlanCmd.CLPXZQWindowCmd.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D5A6C4C8-D5D9-4A67-B1BA-93AA2D47F22C} = s 'CLPXZQWindowCmd Class'
+		{
+			ProgID = s 'GisqLandPlanCmd.CLPXZQWindowCmd.1'
+			VersionIndependentProgID = s 'GisqLandPlanCmd.CLPXZQWindowCmd'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8D8A6990-8BAF-47B3-8D12-EB1432787AFD}'
+		}
+	}
+}

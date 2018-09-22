@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'GisqConvertXYDataToGeometry'
+				'GisqConvertXYDataToGeometry.DLL'
+				{
+			val AppID = s '%APPID%'
+		}
+	}
+}

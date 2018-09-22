@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqLandPlanCmd.LPRealtimeUpdateCmd.1 = s 'LPRealtimeUpdateCmd Class'
+	{
+		CLSID = s '{6D65712D-CDB9-46A8-A804-B8F6C669CFF4}'
+	}
+	GisqLandPlanCmd.LPRealtimeUpdateCmd = s 'LPRealtimeUpdateCmd Class'
+	{
+		CLSID = s '{6D65712D-CDB9-46A8-A804-B8F6C669CFF4}'
+		CurVer = s 'GisqLandPlanCmd.LPRealtimeUpdateCmd.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {6D65712D-CDB9-46A8-A804-B8F6C669CFF4} = s 'LPRealtimeUpdateCmd Class'
+		{
+			ProgID = s 'GisqLandPlanCmd.LPRealtimeUpdateCmd.1'
+			VersionIndependentProgID = s 'GisqLandPlanCmd.LPRealtimeUpdateCmd'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8D8A6990-8BAF-47B3-8D12-EB1432787AFD}'
+		}
+	}
+}

@@ -1,0 +1,36 @@
+// GisqExpCoordCmd.idl : GisqExpCoordCmd 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(GisqExpCoordCmd.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(1C204C4F-6283-43F3-81E5-C9E6D8A6641A),
+	dual,
+	nonextensible,
+	helpstring("IExpCoordCmd 接口"),
+	pointer_default(unique)
+]
+interface IExpCoordCmd : IDispatch{
+};
+[
+	uuid(4F55EACE-F865-4B5F-BF71-C62412C90AE7),
+	version(1.0),
+	helpstring("GisqExpCoordCmd 1.0 类型库")
+]
+library GisqExpCoordCmdLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(DA267591-10E1-4A8A-820C-DE600D2A3E8F),
+		helpstring("ExpCoordCmd Class")
+	]
+	coclass ExpCoordCmd
+	{
+		[default] interface IExpCoordCmd;
+	};
+};

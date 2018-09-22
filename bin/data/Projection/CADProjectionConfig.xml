@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Projection>
+	<Description>
+	   <Enforceability>True</Enforceability><!--对于CAD文件是否都做投影-->
+	   <Default>True</Default><!--如果要对CAD文件做投影，那么未找到合适的投影文件，是否默认投影-->
+	   <DefaultPRJFileName>Xian 1980 3 Degree GK CM 120E.prj</DefaultPRJFileName><!--默认的投影文件名-->
+	   <CustomizePRJFolder>False</CustomizePRJFolder><!--是否自定义投影文件父文件夹-->
+	   <PRJFolder></PRJFolder><!--支持自定义投影文件父文件夹-->
+   </Description>
+   <PRJItem>
+	   <Item>
+			<XMinLeft>39</XMinLeft><!--最小坐标的整数值长度为8位的前两位值为39-->
+			<PRJFileName>Xian 1980 3 Degree GK Zone 39.prj</PRJFileName><!--坐标文件（prj）名称-->
+	   </Item>
+	   <Item>
+			<XMinLeft>40</XMinLeft>
+			<PRJFileName>Xian 1980 3 Degree GK Zone 40.prj</PRJFileName>
+	   </Item>
+	   <Item>
+			<XMinLeft>41</XMinLeft>
+			<PRJFileName>Xian 1980 3 Degree GK Zone 41.prj</PRJFileName>
+	   </Item>
+   </PRJItem>
+</Projection>

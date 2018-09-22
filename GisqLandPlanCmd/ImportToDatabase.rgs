@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqLandPlanCmd.ImportToDatabase.1 = s 'ImportToDatabase Class'
+	{
+		CLSID = s '{FDC2EF8B-4A81-4988-8FE7-8697D243D22D}'
+	}
+	GisqLandPlanCmd.ImportToDatabase = s 'ImportToDatabase Class'
+	{
+		CLSID = s '{FDC2EF8B-4A81-4988-8FE7-8697D243D22D}'
+		CurVer = s 'GisqLandPlanCmd.ImportToDatabase.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {FDC2EF8B-4A81-4988-8FE7-8697D243D22D} = s 'ImportToDatabase Class'
+		{
+			ProgID = s 'GisqLandPlanCmd.ImportToDatabase.1'
+			VersionIndependentProgID = s 'GisqLandPlanCmd.ImportToDatabase'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8D8A6990-8BAF-47B3-8D12-EB1432787AFD}'
+		}
+	}
+}

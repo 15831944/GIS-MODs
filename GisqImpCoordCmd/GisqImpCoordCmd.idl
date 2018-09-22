@@ -1,0 +1,36 @@
+// GisqImpCoordCmd.idl : GisqImpCoordCmd 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(GisqImpCoordCmd.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(604BFDA3-B36D-40BC-8526-0833615EBA59),
+	dual,
+	nonextensible,
+	helpstring("IImpCoordCmd 接口"),
+	pointer_default(unique)
+]
+interface IImpCoordCmd : IDispatch{
+};
+[
+	uuid(2B5462D3-CB21-4D30-A4DA-C0E5605CB12D),
+	version(1.0),
+	helpstring("GisqImpCoordCmd 1.0 类型库")
+]
+library GisqImpCoordCmdLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(C6C792A4-2ED7-4CC2-B32A-4F785BDFDEFD),
+		helpstring("ImpCoordCmd Class")
+	]
+	coclass ImpCoordCmd
+	{
+		[default] interface IImpCoordCmd;
+	};
+};

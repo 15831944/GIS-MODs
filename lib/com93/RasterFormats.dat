@@ -1,0 +1,47 @@
+<e on="y" nm="ADRG Overview"  ex="*.ovr"  et="OVR"  at="0x07" />
+<e on="y" nm="ADRG Image"     ex="*.img"  et="IMG"  at="0x05" />
+<e on="y" nm="ADRG Legend"    ex="*.lgg"  et="LGG"  at="0x07" />
+<e on="y" nm="CIB"            ex="*.i11"  et="I11"  at="0x27" />
+<e on="y" nm="CADRG"          ex="*.gn1"  et="GN1"  at="0x27" />
+<e on="y" nm="RPF TOC"        ex="*.toc"  et="TOC"  at="0x07" />
+<e on="y" nm="Arc/Info & Space Imaging BIL" ex="*.bil" et="BIL" at="0x0f" />
+<e on="y" nm="Arc/Info & Space Imaging BIP" ex="*.bip" et="BIP" at="0x0f" />
+<e on="y" nm="Arc/Info & Space Imaging BSQ" ex="*.bsq" et="BSQ" at="0x0f" />
+<e on="y" nm="BMP"            ex="*.bmp"  et="BMP"  at="0x0f" />
+<e on="y" nm="DTED Level 0"   ex="*.dt0"  et="DT0"  at="0x05" />
+<e on="y" nm="DTED Level 1"   ex="*.dt1"  et="DT1"  at="0x05" />
+<e on="y" nm="DTED Level 2"   ex="*.dt2"  et="DT2"  at="0x05" />
+<e on="y" nm="ERDAS 7.5 LAN"  ex="*.lan"  et="LAN"  at="0x05" />
+<e on="y" nm="ERDAS 7.5 GIS"  ex="*.gis"  et="GIS"  at="0x05" />
+<e on="y" nm="GIF"            ex="*.gif"  et="GIF"  at="0x0f" />
+<e on="y" nm="IMAGINE Image"  ex="*.img"  et="IMG"  at="0x0d" />
+<e on="y" nm="JPEG"           ex="*.jpg"  et="JPG"  at="0x0f" />
+<e on="y" nm="JP2"            ex="*.jp2"  et="JP2"  at="0x0f" />
+<e on="y" nm="MrSID"          ex="*.sid"  et="SID"  at="0x07" />
+<e on="y" nm="PNG"            ex="*.png"  et="PNG"  at="0x0f" />
+<e on="y" nm="RAW"            ex="*.raw"  et="RAW"  at="0x07" />
+<e on="y" nm="NITF"           ex="*.ntf"  et="NTF"  at="0x0f" />
+<e on="y" nm="NSIF"           ex="*.nsf"  et="NSF"  at="0x2f" />
+<e on="y" nm="TIFF"           ex="*.tif"  et="TIF"  at="0x0d" />
+<e on="y" nm="GRID"           ex="<grid>" et="GRID" at="0x1d" />
+<e on="y" nm="GRID Stack 7.x" ex="<grid>" et="GRID" at="0x1d" />
+<e on="y" nm="GRID Stack"     ex="*.stk"  et="GRID" at="0x1d" />
+<e on="y" nm="USGS ASCII DEM" ex="*.dem"  et="DEM"  at="0x27" />
+<e on="y" nm="X11 Pixmap"     ex="*.xpm"  et="XPM"  at="0x2f" />
+<e on="y" nm="PCRaster"       ex="*.map"  et="MAP"  at="0x2f" />
+<e on="y" nm="Memory Raster"  ex="*.memory" et="MEM"  at="0x2f" />
+<e on="y" nm="PCI Geomatics Database File" ex="*.pix" et="PIX" at="0x2f" />
+<e on="y" nm="JPC"            ex="*.jpc"  et="JP2"  at="0x2f" />
+<e on="y" nm="J2K"            ex="*.j2k"  et="JP2"  at="0x2f" />
+<e on="y" nm="J2C"            ex="*.j2c"  et="JP2"  at="0x2f" />
+<e on="y" nm="JPX"            ex="*.jpx"  et="JP2"  at="0x2f" />
+<e on="y" nm="HDF"            ex="*.hdf"  et="HDF4" at="0x2f" />
+<e on="y" nm="BSB"            ex="*.kap"  et="KAP"  at="0x27" />
+<e on="y" nm="IDRISI Raster"  ex="*.rst"  et="RST"  at="0x2f" />
+<e on="y" nm="USGS SDTS DEM"  ex="*.ddf"  et="DDF"  at="0x27" />
+<e on="y" nm="VRT"            ex="*.vrt"  et="VRT"  at="0x27" />
+<e on="y" nm="Arc/Info ASCII GRID" ex="*.asc"  et="ASC"  at="0x2f" />
+<e on="y" nm="ENVI Raster (.img)"  ex="*.img"  et="ENVI" at="0x2f" />
+<e on="y" nm="ENVI Raster (.raw)"  ex="*.raw"  et="ENVI" at="0x2f" />
+<e on="y" nm="ENVI Raster (.dat)"  ex="*.dat"  et="ENVI" at="0x2f" />
+<e on="y" nm="XYZ"            ex="*.xyz"  et="XYZ"  at="0x27" />

@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqConvertXYDataToGeometry.ConvertXY.1 = s 'ConvertXYData Class'
+	{
+		CLSID = s '{7BD8E6FB-8C84-4133-98CF-F24EA5910A67}'
+	}
+	GisqConvertXYDataToGeometry.ConvertXYDa = s 'ConvertXYData Class'
+	{
+		CLSID = s '{7BD8E6FB-8C84-4133-98CF-F24EA5910A67}'
+		CurVer = s 'GisqConvertXYDataToGeometry.ConvertXY.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {7BD8E6FB-8C84-4133-98CF-F24EA5910A67} = s 'ConvertXYData Class'
+		{
+			ProgID = s 'GisqConvertXYDataToGeometry.ConvertXY.1'
+			VersionIndependentProgID = s 'GisqConvertXYDataToGeometry.ConvertXYDa'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{943974FF-BC2B-49CB-839B-1F4A68701BB7}'
+		}
+	}
+}

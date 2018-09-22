@@ -1,0 +1,10 @@
+; GisqLandPlanPageLayOutCmd.def : 定义模块参数。
+
+LIBRARY      "GisqLandPlanPageLayOutCmd.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE

@@ -1,0 +1,360 @@
+// GisqLandPlanPageLayOutCmd.idl : GisqLandPlanPageLayOutCmd 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(GisqLandPlanPageLayOutCmd.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(27C71976-0CA5-4E40-BF43-8EFFB0574CB3),
+	dual,
+	nonextensible,
+	helpstring("ILPJBNTBHCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPJBNTBHCmd : IDispatch{
+};
+[
+	object,
+	uuid(8FE8782F-62F4-4B3C-8962-73FCFC5B4A7A),
+	dual,
+	nonextensible,
+	helpstring("ILPJSYDGZQ_FQCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPJSYDGZQ_FQCmd : IDispatch{
+};
+[
+	object,
+	uuid(5F90CBC1-FB11-4D7D-B003-C35988197264),
+	dual,
+	nonextensible,
+	helpstring("ILPJSYDGZQ_TZQHDBCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPJSYDGZQ_TZQHDBCmd : IDispatch{
+};
+[
+	object,
+	uuid(2ED16FA7-BF97-4340-93BB-571FB3858B96),
+	dual,
+	nonextensible,
+	helpstring("ILPJSZHBSTCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPJSZHBSTCmd : IDispatch{
+};
+[
+	object,
+	uuid(BF02768B-2824-41BF-B655-1959AFA1F781),
+	dual,
+	nonextensible,
+	helpstring("ILPTDYTFQCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPTDYTFQCmd : IDispatch{
+};
+[
+	object,
+	uuid(1F6CBE78-3A39-4071-9999-A382821E2E27),
+	dual,
+	nonextensible,
+	helpstring("ILPTDZZCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPTDZZCmd : IDispatch{
+};
+[
+	object,
+	uuid(6D8DCE0D-AFFB-4FDB-9B60-2683230C45EF),
+	dual,
+	nonextensible,
+	helpstring("ILPZDJSXMGHCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZDJSXMGHCmd : IDispatch{
+};
+[
+	object,
+	uuid(FDC80FB2-D509-4C42-B417-3CDD84DFD98C),
+	dual,
+	nonextensible,
+	helpstring("ILPZTGHCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZTGHCmd : IDispatch{
+};
+[
+	object,
+	uuid(952329E3-C9A4-4B2F-A5FD-8B55BA7009EE),
+	dual,
+	nonextensible,
+	helpstring("ILPZTGHJBTCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZTGHJBTCmd : IDispatch{
+};
+[
+	object,
+	uuid(A4268FB3-64DD-4B3B-A40E-50AC56E5AA3A),
+	dual,
+	nonextensible,
+	helpstring("ILPZTGHXZCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZTGHXZCmd : IDispatch{
+};
+[
+	object,
+	uuid(B5953A82-EA59-43F9-ADD7-49AC205B98A6),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_JBNTBHCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_JBNTBHCmd : IDispatch{
+};
+[
+	object,
+	uuid(DA04DE22-D841-456B-B757-18A20A58827B),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_JSYDGZQ_TZQHDBCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_JSYDGZQ_TZQHDBCmd : IDispatch{
+};
+[
+	object,
+	uuid(6439A2A4-4C37-4763-863F-FC2D99ABD8E2),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_JSYDKJGZQCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_JSYDKJGZQCmd : IDispatch{
+};
+[
+	object,
+	uuid(EEAF3F21-499F-4F8A-8771-004EC9DB2BE3),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_JSZHCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_JSZHCmd : IDispatch{
+};
+[
+	object,
+	uuid(6B12F501-C42C-4252-A36F-C2A40F243473),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_TDYTFQCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_TDYTFQCmd : IDispatch{
+};
+[
+	object,
+	uuid(1083B2A0-7EC5-478B-858C-05A0DE54DC25),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_TDZZCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_TDZZCmd : IDispatch{
+};
+[
+	object,
+	uuid(F256BBBD-E40B-4CB8-8A5F-6C7B3D2DA4A5),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_ZDJSXMCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_ZDJSXMCmd : IDispatch{
+};
+[
+	object,
+	uuid(A18B4A72-AB1E-49EB-9B74-5A0B9892620D),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_ZTGHCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_ZTGHCmd : IDispatch{
+};
+[
+	object,
+	uuid(28DA1A1C-A2B1-440F-8C26-B32E01EC49D9),
+	dual,
+	nonextensible,
+	helpstring("ILPZXCQ_ZTGHXZCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPZXCQ_ZTGHXZCmd : IDispatch{
+};
+[
+	uuid(2A7ED1CD-CCF5-44A4-BD26-D8A6467883A9),
+	version(1.0),
+	helpstring("GisqLandPlanPageLayOutCmd 1.0 类型库")
+]
+library GisqLandPlanPageLayOutCmdLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(0CA7B0BE-64FB-4A63-929D-557B34EA0E08),
+		helpstring("LPJBNTBHCmd Class")
+	]
+	coclass LPJBNTBHCmd
+	{
+		[default] interface ILPJBNTBHCmd;
+	};
+	[
+		uuid(49FCCB1B-EF3A-4C60-A63A-9B7EE1EED158),
+		helpstring("LPJSYDGZQ_FQCmd Class")
+	]
+	coclass LPJSYDGZQ_FQCmd
+	{
+		[default] interface ILPJSYDGZQ_FQCmd;
+	};
+	[
+		uuid(F951030E-B212-43BF-92F6-6AC1F83FE4C5),
+		helpstring("LPJSYDGZQ_TZQHDBCmd Class")
+	]
+	coclass LPJSYDGZQ_TZQHDBCmd
+	{
+		[default] interface ILPJSYDGZQ_TZQHDBCmd;
+	};
+	[
+		uuid(6BC14BE6-C5CE-4B29-9523-C769AAB4E76A),
+		helpstring("LPJSZHBSTCmd Class")
+	]
+	coclass LPJSZHBSTCmd
+	{
+		[default] interface ILPJSZHBSTCmd;
+	};
+	[
+		uuid(B35BADE6-F257-4CF4-A333-5B63DB7D166C),
+		helpstring("LPTDYTFQCmd Class")
+	]
+	coclass LPTDYTFQCmd
+	{
+		[default] interface ILPTDYTFQCmd;
+	};
+	[
+		uuid(80E00706-D1B3-4BF4-B94C-4546BB525493),
+		helpstring("LPTDZZCmd Class")
+	]
+	coclass LPTDZZCmd
+	{
+		[default] interface ILPTDZZCmd;
+	};
+	[
+		uuid(9C1055E8-BD37-4B92-A16D-AF0CC52F2B2D),
+		helpstring("LPZDJSXMGHCmd Class")
+	]
+	coclass LPZDJSXMGHCmd
+	{
+		[default] interface ILPZDJSXMGHCmd;
+	};
+	[
+		uuid(0699F481-4D60-48DD-93BA-DA631A967BF7),
+		helpstring("LPZTGHCmd Class")
+	]
+	coclass LPZTGHCmd
+	{
+		[default] interface ILPZTGHCmd;
+	};
+	[
+		uuid(F7A0409E-F834-426E-AC2C-77FF2CE22034),
+		helpstring("LPZTGHJBTCmd Class")
+	]
+	coclass LPZTGHJBTCmd
+	{
+		[default] interface ILPZTGHJBTCmd;
+	};
+	[
+		uuid(0003D1B7-5C11-4B02-8E58-1B0978D1CE93),
+		helpstring("LPZTGHXZCmd Class")
+	]
+	coclass LPZTGHXZCmd
+	{
+		[default] interface ILPZTGHXZCmd;
+	};
+	[
+		uuid(3A8494FB-40EA-42F9-AB86-319BA64D2F8A),
+		helpstring("LPZXCQ_JBNTBHCmd Class")
+	]
+	coclass LPZXCQ_JBNTBHCmd
+	{
+		[default] interface ILPZXCQ_JBNTBHCmd;
+	};
+	[
+		uuid(008FD54F-A096-426A-9AFF-EB89B88977E8),
+		helpstring("LPZXCQ_JSYDGZQ_TZQHDBCmd Class")
+	]
+	coclass LPZXCQ_JSYDGZQ_TZQHDBCmd
+	{
+		[default] interface ILPZXCQ_JSYDGZQ_TZQHDBCmd;
+	};
+	[
+		uuid(0E8BE7AC-8338-4F01-896E-2B676BBC14BD),
+		helpstring("LPZXCQ_JSYDKJGZQCmd Class")
+	]
+	coclass LPZXCQ_JSYDKJGZQCmd
+	{
+		[default] interface ILPZXCQ_JSYDKJGZQCmd;
+	};
+	[
+		uuid(98390AEA-D93A-4071-883F-717E91C157FD),
+		helpstring("LPZXCQ_JSZHCmd Class")
+	]
+	coclass LPZXCQ_JSZHCmd
+	{
+		[default] interface ILPZXCQ_JSZHCmd;
+	};
+	[
+		uuid(6D6E901B-1986-458F-B319-C7E78725B740),
+		helpstring("LPZXCQ_TDYTFQCmd Class")
+	]
+	coclass LPZXCQ_TDYTFQCmd
+	{
+		[default] interface ILPZXCQ_TDYTFQCmd;
+	};
+	[
+		uuid(D72FD09D-F20A-4AC0-B5CD-4B49D563784A),
+		helpstring("LPZXCQ_TDZZCmd Class")
+	]
+	coclass LPZXCQ_TDZZCmd
+	{
+		[default] interface ILPZXCQ_TDZZCmd;
+	};
+	[
+		uuid(2DAB2EB8-4563-4A8A-8ED5-8B9E5D61193C),
+		helpstring("LPZXCQ_ZDJSXMCmd Class")
+	]
+	coclass LPZXCQ_ZDJSXMCmd
+	{
+		[default] interface ILPZXCQ_ZDJSXMCmd;
+	};
+	[
+		uuid(A2FB7DBE-BE17-4786-A7D4-76AE09079B6E),
+		helpstring("LPZXCQ_ZTGHCmd Class")
+	]
+	coclass LPZXCQ_ZTGHCmd
+	{
+		[default] interface ILPZXCQ_ZTGHCmd;
+	};
+	[
+		uuid(9DFDF95B-3000-487B-AC17-11234CAFC185),
+		helpstring("LPZXCQ_ZTGHXZCmd Class")
+	]
+	coclass LPZXCQ_ZTGHXZCmd
+	{
+		[default] interface ILPZXCQ_ZTGHXZCmd;
+	};
+};

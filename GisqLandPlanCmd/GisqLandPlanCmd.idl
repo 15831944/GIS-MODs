@@ -1,0 +1,362 @@
+// GisqLandPlanCmd.idl : GisqLandPlanCmd 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(GisqLandPlanCmd.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(F340A6E0-030B-4486-BA73-229270078BB9),
+	dual,
+	nonextensible,
+	helpstring("ICLPXZQWindowCmd 接口"),
+	pointer_default(unique)
+]
+interface ICLPXZQWindowCmd : IDispatch{
+	[id(1), helpstring("方法GetSelectedRegion")] HRESULT GetSelectedRegion([out] BSTR* strName, [out] BSTR* strCode);
+	[id(2), helpstring("方法ZoomToTopXZQ")] HRESULT ZoomToTopXZQ(void);
+};
+[
+	object,
+	uuid(5832C80D-D3F7-40FD-BF90-5907D21F93C6),
+	dual,
+	nonextensible,
+	helpstring("ILPGHJQDLTBCXCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPGHJQDLTBCXCmd : IDispatch{
+};
+[
+	object,
+	uuid(2B8100A9-5D96-4058-AD5C-13EC98AE96AB),
+	dual,
+	nonextensible,
+	helpstring("ILPGHDLTBCXCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPGHDLTBCXCmd : IDispatch{
+};
+[
+	object,
+	uuid(4E81A83F-F8C5-4F24-A963-11769A8C9C97),
+	dual,
+	nonextensible,
+	helpstring("ILPGHQYTDKCXCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPGHQYTDKCXCmd : IDispatch{
+};
+[
+	object,
+	uuid(05F1CD66-B067-461F-8C19-9AE561073D48),
+	dual,
+	nonextensible,
+	helpstring("ILPJSYDGZQCXCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPJSYDGZQCXCmd : IDispatch{
+};
+[
+	object,
+	uuid(C471450C-E91F-4EA6-A525-4D2120EB536F),
+	dual,
+	nonextensible,
+	helpstring("ILPGridDockWinCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPGridDockWinCmd : IDispatch{
+	[id(1), helpstring("方法SetQueryFilter")] HRESULT SetQueryFilter([in] IUnknown* spQueryFilter, [in] BSTR bstrFeatureClassName, [in] BSTR bstrTabName);
+	[id(2), helpstring("方法SetDlgCaption")] HRESULT SetDlgCaption([in] BSTR bstrCaption);
+};
+[
+	object,
+	uuid(682071F7-9220-442C-B81D-44BB21C334A4),
+	dual,
+	nonextensible,
+	helpstring("ILPXZQDataTree 接口"),
+	pointer_default(unique)
+]
+interface ILPXZQDataTree : IDispatch{
+	[id(1), helpstring("方法GetRootItem")] HRESULT GetRootItem([in] IUnknown* pFtWorkspace, [out] IUnknown** RootItem);
+	[id(2), helpstring("方法GetXZQMap")] HRESULT GetXZQMap([out] IUnknown** mapXZQData);
+
+};
+[
+	object,
+	uuid(3EC19687-05E9-4BBB-BF54-4CA0A8704C4A),
+	dual,
+	nonextensible,
+	helpstring("ILPXZQDataEnum 接口"),
+	pointer_default(unique)
+]
+interface ILPXZQDataEnum : IDispatch{
+	[id(1), helpstring("方法InsertItem")] HRESULT InsertItem([in] IUnknown* pNewItem, [in] IUnknown* DataMap);
+	[id(2), helpstring("方法GetItemCount")] HRESULT GetItemCount([out] int* nCount);
+	[id(3), helpstring("方法GetItemAt")] HRESULT GetItemAt([in] int nItem, [out] IUnknown** pItem);
+
+	[id(4), helpstring("方法InsertItem2")] HRESULT InsertItem2([in] IUnknown* pNewItem);
+};
+[
+	object,
+	uuid(8F479252-C491-4E4E-9427-D4BF9FE6B214),
+	dual,
+	nonextensible,
+	helpstring("ILPXZQDataItem 接口"),
+	pointer_default(unique)
+]
+interface ILPXZQDataItem : IDispatch{
+	[id(1), helpstring("方法Get_ItemName")] HRESULT Get_ItemName([out] BSTR* bstrName);
+	[id(2), helpstring("方法Set_ItemName")] HRESULT Set_ItemName([in] BSTR bstrName);
+	[id(3), helpstring("方法Get_ItemCode")] HRESULT Get_ItemCode([out] BSTR* bstrCode);
+	[id(4), helpstring("方法Set_ItemCode")] HRESULT Set_ItemCode([in] BSTR bstrCode);
+	[id(5), helpstring("方法Get_ItemParentID")] HRESULT Get_ItemParentID([out] BSTR* bstrParentID);
+	[id(6), helpstring("方法Set_ItemParentID")] HRESULT Set_ItemParentID([in] BSTR bstrParentID);
+	[id(7), helpstring("方法Get_ItemLevel")] HRESULT Get_ItemLevel([out] SHORT* snLevel);
+	[id(8), helpstring("方法Set_ItemLevel")] HRESULT Set_ItemLevel([in] SHORT snLevel);
+	[id(9), helpstring("方法InsertTreeItem")] HRESULT InsertTreeItem([in] IUnknown* pParentItem, [in] IUnknown* DataMap);
+	[id(10), helpstring("方法Get_ChildItems")] HRESULT Get_ChildItems([out] IUnknown** ChildItemEnum);
+	[id(11), helpstring("方法InsertTreeItem2")] HRESULT InsertTreeItem2([in] IUnknown* pNewitem);
+};
+[
+	object,
+	uuid(3D7485B8-1664-41B5-95E8-7C2A33A7D6BC),
+	dual,
+	nonextensible,
+	helpstring("ILPAttrSearchCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPAttrSearchCmd : IDispatch{
+};
+[
+	object,
+	uuid(008013B7-6640-47B5-9E23-9CEBC97DFD33),
+	dual,
+	nonextensible,
+	helpstring("ILPGHGXCXCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPGHGXCXCmd : IDispatch{
+};
+[
+	object,
+	uuid(09326222-8A96-43DA-881F-C1200A39AB06),
+	dual,
+	nonextensible,
+	helpstring("ILPGHGXRstCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPGHGXRstCmd : IDispatch{
+	[id(1), helpstring("方法SearchFA")] HRESULT SearchFA([in] BSTR bstrQueryFilter);
+};
+[
+	object,
+	uuid(1786E307-6C05-47AC-AE96-D4C50E080CE3),
+	dual,
+	nonextensible,
+	helpstring("ILPRealtimeUpdateCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPRealtimeUpdateCmd : IDispatch{
+};
+[
+	object,
+	uuid(D5E05675-780D-4243-B265-E7362C5AE440),
+	dual,
+	nonextensible,
+	helpstring("IImportToDatabase 接口"),
+	pointer_default(unique)
+]
+interface IImportToDatabase : IDispatch{
+};
+[
+	object,
+	uuid(FFD1EA8F-512A-4FCC-9169-EF570FB0AEC8),
+	dual,
+	nonextensible,
+	helpstring("IZoomToTopXZQ 接口"),
+	pointer_default(unique)
+]
+interface IZoomToTopXZQ : IDispatch{
+	[id(1), helpstring("方法SetIsLayoutJBT")] HRESULT SetIsLayoutJBT([in] BOOL bIsLayoutJBT);
+	[id(2), helpstring("方法SetFullExtent")] HRESULT SetFullExtent([in] IUnknown* pEnvelope);
+};
+[
+	object,
+	uuid(036C8159-0A26-480C-8A4D-9B99ACBD41D3),
+	dual,
+	nonextensible,
+	helpstring("ILPExportDataCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPExportDataCmd : IDispatch{
+};
+[
+	object,
+	uuid(894517E1-C717-4838-8732-9323FB105837),
+	dual,
+	nonextensible,
+	helpstring("ILPSystemSetCmd 接口"),
+	pointer_default(unique)
+]
+interface ILPSystemSetCmd : IDispatch{
+};
+[
+	uuid(8D8A6990-8BAF-47B3-8D12-EB1432787AFD),
+	version(1.0),
+	helpstring("GisqLandPlanCmd 1.0 类型库")
+]
+library GisqLandPlanCmdLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(E2C5C714-B32F-44A7-981A-4F8C43E86CD0),
+		helpstring("_ICLPXZQWindowCmdEvents 接口")
+	]
+	dispinterface _ICLPXZQWindowCmdEvents
+	{
+		properties:
+		methods:
+			[id(1), helpstring("方法OnSelectXZQItem")] HRESULT OnSelectXZQItem([out] BSTR* bstrDM, [out] BSTR* bstrMC);
+	};
+	[
+		uuid(D5A6C4C8-D5D9-4A67-B1BA-93AA2D47F22C),
+		helpstring("CLPXZQWindowCmd Class")
+	]
+	coclass CLPXZQWindowCmd
+	{
+		[default] interface ICLPXZQWindowCmd;
+		[default, source] dispinterface _ICLPXZQWindowCmdEvents;
+	};
+	[
+		uuid(54DB1F51-9E4C-4F9A-8CFB-A2D7601BF2BD),
+		helpstring("LPGHJQDLTBCXCmd Class")
+	]
+	coclass LPGHJQDLTBCXCmd
+	{
+		[default] interface ILPGHJQDLTBCXCmd;
+	};
+	[
+		uuid(EEFCA494-4316-44AE-9A71-40186E3F5FF2),
+		helpstring("LPGHDLTBCXCmd Class")
+	]
+	coclass LPGHDLTBCXCmd
+	{
+		[default] interface ILPGHDLTBCXCmd;
+	};
+	[
+		uuid(87D33928-3103-4A91-B984-61C962F5A882),
+		helpstring("LPGHQYTDKCXCmd Class")
+	]
+	coclass LPGHQYTDKCXCmd
+	{
+		[default] interface ILPGHQYTDKCXCmd;
+	};
+	[
+		uuid(83E46A39-0BFB-475A-95DB-ED56A31E27A7),
+		helpstring("LPJSYDGZQCXCmd Class")
+	]
+	coclass LPJSYDGZQCXCmd
+	{
+		[default] interface ILPJSYDGZQCXCmd;
+	};
+	[
+		uuid(C2719076-E1A4-4C1F-8E53-EBF365B8FAAE),
+		helpstring("LPGridDockWinCmd Class")
+	]
+	coclass LPGridDockWinCmd
+	{
+		[default] interface ILPGridDockWinCmd;
+	};
+
+	[
+		uuid(E4017F24-371E-40AC-8732-001484B0A9EB),
+		helpstring("LPXZQDataTree Class")
+	]
+	coclass LPXZQDataTree
+	{
+		[default] interface ILPXZQDataTree;
+	};
+	[
+		uuid(FBF19961-C8FA-4ACE-8335-A95BF7C2DC56),
+		helpstring("LPXZQDataEnum Class")
+	]
+	coclass LPXZQDataEnum
+	{
+		[default] interface ILPXZQDataEnum;
+	};
+	[
+		uuid(4F79B57A-739A-4837-9F68-D18751429849),
+		helpstring("LPXZQDataItem Class")
+	]
+	coclass LPXZQDataItem
+	{
+		[default] interface ILPXZQDataItem;
+	};
+	[
+		uuid(E8AB206B-90CB-487A-99B7-D6520FD40C39),
+		helpstring("LPAttrSearchCmd Class")
+	]
+	coclass LPAttrSearchCmd
+	{
+		[default] interface ILPAttrSearchCmd;
+	};
+	[
+		uuid(88AFE8EC-F480-455F-A314-56B5C8DA39DF),
+		helpstring("LPGHGXCXCmd Class")
+	]
+	coclass LPGHGXCXCmd
+	{
+		[default] interface ILPGHGXCXCmd;
+	};
+	[
+		uuid(74A40550-F7B7-4065-94E6-31B0B391FE75),
+		helpstring("LPGHGXRstCmd Class")
+	]
+	coclass LPGHGXRstCmd
+	{
+		[default] interface ILPGHGXRstCmd;
+	};
+	[
+		uuid(6D65712D-CDB9-46A8-A804-B8F6C669CFF4),
+		helpstring("LPRealtimeUpdateCmd Class")
+	]
+	coclass LPRealtimeUpdateCmd
+	{
+		[default] interface ILPRealtimeUpdateCmd;
+	};
+	[
+		uuid(FDC2EF8B-4A81-4988-8FE7-8697D243D22D),
+		helpstring("ImportToDatabase Class")
+	]
+	coclass ImportToDatabase
+	{
+		[default] interface IImportToDatabase;
+	};
+	[
+		uuid(FF85703D-0050-4F0C-8654-BD5A87959FD3),
+		helpstring("ZoomToTopXZQ Class")
+	]
+	coclass ZoomToTopXZQ
+	{
+		[default] interface IZoomToTopXZQ;
+	};
+	[
+		uuid(2D115643-4A36-4885-9DE7-F4B7DCF778DE),
+		helpstring("LPExportDataCmd Class")
+	]
+	coclass LPExportDataCmd
+	{
+		[default] interface ILPExportDataCmd;
+	};
+	[
+		uuid(60C90E71-B196-4591-9BA8-D8F79DC585AE),
+		helpstring("LPSystemSetCmd Class")
+	]
+	coclass LPSystemSetCmd
+	{
+		[default] interface ILPSystemSetCmd;
+	};
+};

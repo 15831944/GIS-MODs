@@ -1,0 +1,1 @@
+for %%f in (*.dll,*.ocx) do regsvr32 /u /s %%f

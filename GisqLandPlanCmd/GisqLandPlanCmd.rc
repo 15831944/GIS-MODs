@@ -1,0 +1,448 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "1 TYPELIB ""GisqLandPlanCmd.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "InternalName", "GisqLandPlanCmd.dll"
+            VALUE "OriginalFilename", "GisqLandPlanCmd.dll"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_GISQLANDPLANCMD     REGISTRY                "GisqLandPlanCmd.rgs"
+IDR_CLPXZQWINDOWCMD     REGISTRY                "CLPXZQWindowCmd.rgs"
+IDR_LPGHJQDLTBCXCMD     REGISTRY                "LPGHJQDLTBCXCmd.rgs"
+IDR_LPGHDLTBCXCMD       REGISTRY                "LPGHDLTBCXCmd.rgs"
+IDR_LPGHQYTDKCXCMD      REGISTRY                "LPGHQYTDKCXCmd.rgs"
+IDR_LPJSYDGZQCXCMD      REGISTRY                "LPJSYDGZQCXCmd.rgs"
+IDR_LPGRIDDOCKWINCMD    REGISTRY                "LPGridDockWinCmd.rgs"
+IDR_LPXZQDATATREE       REGISTRY                "LPXZQDataTree.rgs"
+IDR_LPXZQDATAENUM       REGISTRY                "LPXZQDataEnum.rgs"
+IDR_LPXZQDATAITEM       REGISTRY                "LPXZQDataItem.rgs"
+IDR_LPATTRSEARCHCMD     REGISTRY                "LPAttrSearchCmd.rgs"
+IDR_LPGHGXCXCMD         REGISTRY                "LPGHGXCXCmd.rgs"
+IDR_LPGHGXRSTCMD        REGISTRY                "LPGHGXRstCmd.rgs"
+IDR_LPREALTIMEUPDATECMD REGISTRY                "LPRealtimeUpdateCmd.rgs"
+IDR_IMPORTTODATABASE    REGISTRY                "ImportToDatabase.rgs"
+IDR_ZOOMTOTOPXZQ        REGISTRY                "ZoomToTopXZQ.rgs"
+IDR_LPEXPORTDATACMD     REGISTRY                "LPExportDataCmd.rgs"
+IDR_LPSYSTEMSETCMD      REGISTRY                "LPSystemSetCmd.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LPXZQWINDOWDLG DIALOGEX 0, 0, 175, 276
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_XZQ_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,143,224
+END
+
+IDD_LPGHJQDLTBCXDLG DIALOGEX 0, 0, 355, 305
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规划基期地类图斑查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,287,284,50,14
+    GROUPBOX        "查询范围",IDC_STATIC,13,7,230,71
+    LTEXT           "乡镇：",IDC_STATIC,34,23,25,8
+    LTEXT           "村：",IDC_STATIC,38,41,17,8
+    LTEXT           "规划地类：",IDC_STATIC,26,57,41,8
+    COMBOBOX        IDC_XZCOMBO,85,21,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CUNCOMBO,85,38,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GHDLCOMBO3,85,54,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "面积单位",IDC_STATIC,269,7,68,71
+    CONTROL         "平方米",IDC_METER_RD,"Button",BS_AUTORADIOBUTTON | WS_GROUP,281,22,40,10
+    CONTROL         "亩",IDC_MU_RD,"Button",BS_AUTORADIOBUTTON,281,40,24,10
+    CONTROL         "公顷",IDC_HECTARE_RD,"Button",BS_AUTORADIOBUTTON,282,56,32,10
+    GROUPBOX        "查询条件",IDC_STATIC,14,82,323,62
+    PUSHBUTTON      "查询",IDC_CXBUTTON,224,284,50,14
+    EDITTEXT        IDC_TBMJMIN,26,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT1,80,99,41,8
+    LTEXT           "<=  图斑面积  <=",IDC_STATIC,135,99,73,8
+    EDITTEXT        IDC_TBMJMAX,222,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT2,276,99,41,8
+    EDITTEXT        IDC_TBDLMJMIN,26,120,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT3,80,123,41,8
+    LTEXT           "<=图斑地类面积<=",IDC_STATIC,135,123,73,8
+    EDITTEXT        IDC_TBDLMJMAX,222,120,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT4,276,123,41,8
+    CONTROL         "",IDC_GRIDAREA,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,15,154,321,125
+    LTEXT           "共——条数据",IDC_RESCOUNT,17,287,81,8
+END
+
+IDD_LPGHDLTBCXDLG DIALOGEX 0, 0, 353, 279
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "规划地类图斑查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,296,258,50,14
+    PUSHBUTTON      "查询",IDC_CXBUTTON_2,229,258,50,14
+    LTEXT           "共——条数据",IDC_RESCOUNT_2,17,258,81,8
+    LTEXT           "乡镇：",IDC_STATIC,34,23,25,8
+    LTEXT           "村：",IDC_STATIC,38,41,17,8
+    LTEXT           "规划地类：",IDC_STATIC,26,57,41,8
+    COMBOBOX        IDC_XZCOMBO_2,85,21,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CUNCOMBO_2,85,38,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GHDLCOMBO_2,85,54,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "平方米",IDC_METER_RD_2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,281,22,40,10
+    CONTROL         "亩",IDC_MU_RD_2,"Button",BS_AUTORADIOBUTTON,281,40,24,10
+    CONTROL         "公顷",IDC_HECTARE_RD_2,"Button",BS_AUTORADIOBUTTON,282,56,32,10
+    GROUPBOX        "查询范围",IDC_STATIC,13,7,230,71
+    GROUPBOX        "查询条件",IDC_STATIC,14,82,323,37
+    EDITTEXT        IDC_GHDLMIN_2,26,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT21,80,99,41,8
+    LTEXT           "<=规划地类面积<=",IDC_STATIC,135,99,73,8
+    EDITTEXT        IDC_GHDLMAX_2,222,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT22,276,99,41,8
+    GROUPBOX        "面积单位",IDC_STATIC,269,7,68,71
+    CONTROL         "",IDC_GRIDAREA_2,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,15,123,321,125
+END
+
+IDD_LPGHQYTDKCXDLG DIALOGEX 0, 0, 352, 277
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规划期用途地块查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,295,256,50,14
+    LTEXT           "乡镇：",IDC_STATIC,34,28,25,8
+    LTEXT           "规划地类：",IDC_STATIC,26,52,41,8
+    COMBOBOX        IDC_XZCOMBO_3,85,26,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GHDLCOMBO_3,85,49,134,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "平方米",IDC_METER_RD_3,"Button",BS_AUTORADIOBUTTON | WS_GROUP,281,22,40,10
+    CONTROL         "亩",IDC_MU_RD_3,"Button",BS_AUTORADIOBUTTON,281,40,24,10
+    CONTROL         "公顷",IDC_HECTARE_RD_3,"Button",BS_AUTORADIOBUTTON,282,56,32,10
+    GROUPBOX        "查询范围",IDC_STATIC,13,7,230,71
+    GROUPBOX        "查询条件",IDC_STATIC,14,82,323,37
+    EDITTEXT        IDC_TDYTQMJMIN,26,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT31,77,99,41,8
+    LTEXT           "<=土地用途区面积<=",IDC_STATIC,129,99,83,8
+    EDITTEXT        IDC_TDYTQMJMAX,223,97,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT32,274,99,41,8
+    CONTROL         "",IDC_GRIDAREA_3,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,15,123,321,125
+    GROUPBOX        "面积单位",IDC_STATIC,269,7,68,71
+    LTEXT           "共——条数据",IDC_RESCOUNT_3,17,258,81,8
+    PUSHBUTTON      "查询",IDC_CXBUTTON_3,229,256,50,14
+END
+
+IDD_LPJSYDGZQCXDLG DIALOGEX 0, 0, 353, 231
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "建设用地管制区查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,296,210,50,14
+    LTEXT           "管制区类型：",IDC_STATIC,14,15,49,8
+    COMBOBOX        IDC_GZQLXCOMBO,72,13,80,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "平方米",IDC_METER_RD_4,"Button",BS_AUTORADIOBUTTON | WS_GROUP,224,14,40,10
+    CONTROL         "亩",IDC_MU_RD_4,"Button",BS_AUTORADIOBUTTON,271,14,24,10
+    CONTROL         "公顷",IDC_HECTARE_RD_4,"Button",BS_AUTORADIOBUTTON,302,14,32,10
+    GROUPBOX        "查询条件",IDC_STATIC,14,32,323,37
+    EDITTEXT        IDC_TDYTQMJMIN,26,47,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT41,77,49,41,8
+    LTEXT           "<=土地用途区面积<=",IDC_STATIC,129,49,83,8
+    EDITTEXT        IDC_TDYTQMJMAX,223,47,40,14,ES_AUTOHSCROLL
+    LTEXT           "（平方米）",IDC_UNITTEXT42,274,49,41,8
+    CONTROL         "",IDC_GRIDAREA_4,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,15,73,321,125
+    LTEXT           "面积单位：",IDC_STATIC,176,15,41,8
+    LTEXT           "共——条数据",IDC_RESCOUNT_4,15,211,81,8
+    PUSHBUTTON      "查询",IDC_CXBUTTON_4,233,210,50,14
+END
+
+IDD_GRIDDOCKWIN DIALOGEX 0, 0, 384, 156
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规划要素查询结果"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_RESGRIDTAB,"SysTabControl32",NOT WS_VISIBLE,0,0,383,156
+END
+
+IDD_LPATTRSEARCHDLG DIALOGEX 0, 0, 256, 106
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规划要素查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "取消",IDCANCEL,199,88,50,14
+    LTEXT           "查询类型",IDC_STATIC,7,11,33,8
+    COMBOBOX        IDC_COXTARGETTYPE,49,9,118,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "行 政 区",IDC_STATIC,7,31,33,8
+    COMBOBOX        IDC_CBX_XZQ,49,29,118,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "地类类型",IDC_DLLX_TEXT,7,51,54,8
+    COMBOBOX        IDC_CBX_DLMC,49,49,118,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "面积单位",IDC_STATIC,178,7,72,58
+    CONTROL         "平方米",IDC_UNIT_METER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,193,23,40,10
+    CONTROL         "亩",IDC_UNIT_MU,"Button",BS_AUTORADIOBUTTON,193,36,24,10
+    CONTROL         "公顷",IDC_UNIT_HECTARE,"Button",BS_AUTORADIOBUTTON,193,49,32,10
+    EDITTEXT        IDC_EDITMINAREA,8,68,40,14,ES_AUTOHSCROLL
+    LTEXT           "<=",IDC_STATIC,56,72,12,8
+    LTEXT           "<=",IDC_STATIC,152,72,12,8
+    CONTROL         "",IDC_AREANAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,74,68,70,14
+    EDITTEXT        IDC_EDITMAXAREA,173,68,40,14,ES_AUTOHSCROLL
+    LTEXT           "(平方米)",IDC_UNITTEXT,219,71,34,8
+    PUSHBUTTON      "查询",IDC_GH_SEARCH,136,88,50,14
+END
+
+IDD_GRIDDOCKTABWND DIALOGEX 0, 0, 316, 107
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "共--条结果,总面积--平方米(从xxx字段统计)",IDC_RESTEXT,0,99,240,8
+END
+
+IDD_GHGXCXDLG DIALOGEX 0, 0, 319, 127
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规划修改查询"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,186,106,50,14
+    PUSHBUTTON      "取消",IDCANCEL,262,106,50,14
+    EDITTEXT        IDC_EDIT_MC_SLH,56,6,256,14,ES_AUTOHSCROLL
+    LTEXT           "方案类型：",IDC_STATIC_LX,155,29,41,8
+    COMBOBOX        IDC_COMBO_FAXMLX,199,27,113,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "名称编号",IDC_STATIC,7,9,41,8
+    LTEXT           "批准时间",IDC_STATIC,7,49,41,8
+    PUSHBUTTON      "Button1",IDC_STARTTIMECTRL,122,46,23,14
+    PUSHBUTTON      "Button1",IDC_STOPTIMECTRL,244,46,23,14
+    LTEXT           "面积范围",IDC_STATIC_MJ,7,69,41,8
+    EDITTEXT        IDC_EDIT_MINAREA,56,66,40,14,ES_AUTOHSCROLL
+    LTEXT           "<=",IDC_STATIC,100,69,12,8
+    COMBOBOX        IDC_COMBO_MJLX,116,67,105,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "<=",IDC_STATIC,225,69,12,8
+    EDITTEXT        IDC_EDIT_MAXAREA,241,66,40,14,ES_AUTOHSCROLL
+    LTEXT           "指标范围",IDC_ZBFW,7,89,41,8
+    EDITTEXT        IDC_EDIT_MINZB,56,86,40,14,ES_AUTOHSCROLL
+    LTEXT           "<=",IDC_STATIC,100,89,12,8
+    LTEXT           "<=",IDC_STATIC,225,89,12,8
+    COMBOBOX        IDC_COMBO_ZBLX,116,87,105,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_MAXZB,241,86,40,14,ES_AUTOHSCROLL
+    LTEXT           "行 政 区",IDC_STATIC,7,29,41,8
+    COMBOBOX        IDC_GHGXCX_XZQ,56,27,91,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "从",IDC_STATIC,57,49,9,8
+    LTEXT           "至",IDC_STATIC,175,49,11,8
+    LTEXT           "(公顷)",IDC_STATIC,285,69,27,8
+    LTEXT           "(公顷)",IDC_STATIC,285,89,27,8
+    EDITTEXT        IDC_EDIT1,78,46,43,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,199,46,43,14,ES_AUTOHSCROLL
+END
+
+IDD_GHGXCXRSTDLG DIALOGEX 0, 0, 463, 192
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "规划修改查询结果"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_FALIST,0,0,126,191,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_FADKTABWND DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "项目/地块信息"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_LPEXPORTDATADLG DIALOGEX 0, 0, 255, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据分发设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,132,52,50,14
+    PUSHBUTTON      "取消",IDCANCEL,197,52,50,14
+    LTEXT           "行政区",IDC_STATIC,7,10,29,8
+    COMBOBOX        IDC_EXPDATAXZQ_CBX,48,8,72,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button1",IDC_EXPDATA_TIMECTRL,165,7,82,14
+    LTEXT           "时  间",IDC_STATIC,132,10,32,8
+    LTEXT           "导出路径",IDC_STATIC,7,30,33,8
+    EDITTEXT        IDC_EDIT1,48,27,199,14,ES_AUTOHSCROLL
+END
+
+IDD_SYSTEMSETDLG DIALOGEX 0, 0, 218, 203
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统设置"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,103,182,50,14
+    PUSHBUTTON      "取消",IDCANCEL,161,182,50,14
+    GROUPBOX        "实时更新",IDC_STATIC,7,7,204,73
+    LTEXT           "更新时间",IDC_STATIC,19,24,33,8
+    PUSHBUTTON      "Button1",IDC_SYSSET_TIME,124,21,46,14
+    GROUPBOX        "指标计算",IDC_STATIC,7,135,204,42
+    GROUPBOX        "更新数据",IDC_STATIC,7,89,204,40
+    COMBOBOX        IDC_GXSJ_COMBO,63,22,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_LPATTRSEARCHDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 102
+        HORZGUIDE, 75
+    END
+
+    IDD_GHGXCXDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        VERTGUIDE, 48
+        VERTGUIDE, 56
+        VERTGUIDE, 69
+        VERTGUIDE, 78
+        VERTGUIDE, 186
+        VERTGUIDE, 199
+        VERTGUIDE, 210
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 120
+    END
+
+    IDD_LPEXPORTDATADLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_SYSTEMSETDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_ICON_SHENG      BITMAP                  "res\\district_sheng.bmp"
+IDB_BMP_ICON_SHI        BITMAP                  "res\\district_shi.bmp"
+IDB_BMP_ICON_XIANGZHEN  BITMAP                  "res\\district_xiangzhen.bmp"
+IDB_BMP_ICON_XIANQU     BITMAP                  "res\\district_xianqu.bmp"
+IDB_BMP_ICON_CUN        BITMAP                  "res\\district_cun.bmp"
+IDB_BMP_ICON_ZXQC       BITMAP                  "res\\district_zxcq.bmp"
+IDB_ZOOMTOXZQ           BITMAP                  "res\\MENU122.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_PROJNAME            "GisqLandPlanCmd"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "GisqLandPlanCmd.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

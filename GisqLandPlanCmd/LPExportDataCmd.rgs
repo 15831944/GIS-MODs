@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqLandPlanCmd.LPExportDataCmd.1 = s 'LPExportDataCmd Class'
+	{
+		CLSID = s '{2D115643-4A36-4885-9DE7-F4B7DCF778DE}'
+	}
+	GisqLandPlanCmd.LPExportDataCmd = s 'LPExportDataCmd Class'
+	{
+		CLSID = s '{2D115643-4A36-4885-9DE7-F4B7DCF778DE}'
+		CurVer = s 'GisqLandPlanCmd.LPExportDataCmd.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {2D115643-4A36-4885-9DE7-F4B7DCF778DE} = s 'LPExportDataCmd Class'
+		{
+			ProgID = s 'GisqLandPlanCmd.LPExportDataCmd.1'
+			VersionIndependentProgID = s 'GisqLandPlanCmd.LPExportDataCmd'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8D8A6990-8BAF-47B3-8D12-EB1432787AFD}'
+		}
+	}
+}

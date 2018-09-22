@@ -1,0 +1,44 @@
+// GisqConvertXYDataToGeometry.idl : GisqConvertXYDataToGeometry 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(GisqConvertXYDataToGeometry.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(244D9484-7624-48E4-B6DF-6418D3977F85),
+	dual,
+	nonextensible,
+	helpstring("IConvertXYData 接口"),
+	pointer_default(unique)
+]
+interface IConvertXYData : IDispatch{
+	[id(1), helpstring("方法GetWorkspace")] HRESULT GetWorkspace([out] IUnknown** ipWorkspace);
+	[id(2), helpstring("方法GetDataset")] HRESULT GetDataset([out] IUnknown** ipDataset);
+	[id(3), helpstring("方法GetFeatureClass")] HRESULT GetFeatureClass([out] IUnknown** ipFeatureClass);
+	[id(4), helpstring("方法GetSpatialRefrence")] HRESULT GetSpatialRefrence([out] IUnknown** ipSpatialRefrence);
+	[id(5), helpstring("方法ConvertToFeatureClass")] HRESULT ConvertToFeatureClass([in] BSTR bstrTXTFilePath, [in] BSTR bstrDestFolder, [in] BSTR bstrDestName, [in] BSTR bstrDatasetName, [in] BSTR bstrFeatureClassName);
+	[id(6), helpstring("方法ConvertMDBToFeatureClass")] HRESULT ConvertMDBToFeatureClass([in] BSTR bstrMDBFilePath, [in] BSTR bstrDestFolder, [in] BSTR bstrDestName, [in] BSTR bstrDatasetName, [in] BSTR bstrFeatureClassName);
+	[id(7), helpstring("方法ConvertJZDToPolygon")] HRESULT ConvertJZDToPolygon([in] BSTR bstrMDBFilePath, [in] BSTR bstrJZDTableName, [in] BSTR bstrGHGXDKTableName, [in] BSTR bstrTargetFolder, [in] BSTR bstrGDBName, [in]  BSTR bstrFeatureDatasetName, [in] BSTR bstrPolygonName);
+	[id(8), helpstring("方法ConvertJZDToPolygon2")] HRESULT ConvertJZDToPolygon2([in] BSTR bstrMDBFilePath, [in] BSTR bstrJZDTableName, [in] BSTR bstrPolygonName);
+};
+[
+	uuid(943974FF-BC2B-49CB-839B-1F4A68701BB7),
+	version(1.0),
+	helpstring("GisqConvertXYDataToGeometry 1.0 类型库")
+]
+library GisqConvertXYDataToGeometryLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(7BD8E6FB-8C84-4133-98CF-F24EA5910A67),
+		helpstring("ConvertXYData Class")
+	]
+	coclass ConvertXYData
+	{
+		[default] interface IConvertXYData;
+	};
+};

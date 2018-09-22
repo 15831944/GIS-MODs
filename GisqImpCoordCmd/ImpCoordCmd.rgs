@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqImpCoordCmd.ImpCoordCmd.1 = s 'ImpCoordCmd Class'
+	{
+		CLSID = s '{C6C792A4-2ED7-4CC2-B32A-4F785BDFDEFD}'
+	}
+	GisqImpCoordCmd.ImpCoordCmd = s 'ImpCoordCmd Class'
+	{
+		CLSID = s '{C6C792A4-2ED7-4CC2-B32A-4F785BDFDEFD}'
+		CurVer = s 'GisqImpCoordCmd.ImpCoordCmd.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C6C792A4-2ED7-4CC2-B32A-4F785BDFDEFD} = s 'ImpCoordCmd Class'
+		{
+			ProgID = s 'GisqImpCoordCmd.ImpCoordCmd.1'
+			VersionIndependentProgID = s 'GisqImpCoordCmd.ImpCoordCmd'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{2B5462D3-CB21-4D30-A4DA-C0E5605CB12D}'
+		}
+	}
+}

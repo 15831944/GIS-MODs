@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+    <SystemConfig>
+        <DbConnections>
+            <DbConnectionInfo Name="TDGH" Server="192.168.8.154" UserID="TDGH" Password="TDGH" SID="orcl" DBType="Oracle" />
+        </DbConnections>
+    </SystemConfig>
+    <RuConfig>
+        <ConnectName>TDGH</ConnectName>
+        <TemporaryPath>D:\TEMP</TemporaryPath>
+    </RuConfig>
+    <ReportConfig>
+        <Tomcat>http://192.168.8.136:48069/WebReport_GH/ReportServer</Tomcat>
+        <NumberofDisplay>25</NumberofDisplay>
+    </ReportConfig>
+    <PageLayoutConfig>
+        <NORMAL>
+            <MAPZF value="测试" />
+            <MAPPUBLIC value="测试1" />
+            <MAPXZQ value="330723103" />
+            <XZSCALE value="10000" />
+            <ZXCQSCALE value="25000" />
+            <XSCALE value="50000" />
+            <PAGE_MIN_WIDTH value="85" />
+            <PAGE_MAX_WIDTH value="165" />
+            <PAGE_HEAD value="8" />
+            <PAGE_BUTTON value="7" />
+            <PAGE_LEFT_RIGHT value="2.5" />
+            <FRAME_BLANK value="5" />
+        </NORMAL>
+        <JBNTBH>
+            <MODELPATH value="土地利用基本农田保护规划图.mxd" />
+            <MAPNAME value="基本农田保护规划图" />
+        </JBNTBH>
+        <TDYTFQ>
+            <MODELPATH value="土地利用土地用途分区图.mxd" />
+            <MAPNAME value="土地用途分区图" />
+        </TDYTFQ>
+        <JSZHBST>
+            <MODELPATH value="土地利用基数转换标识图.mxd" />
+            <MAPNAME value="基数转换标识图" />
+        </JSZHBST>
+        <JSYDGZQ_FQ>
+            <MODELPATH value="土地利用建设用地空间管制区图.mxd" />
+            <MAPNAME value="建设用地空间管制区图" />
+        </JSYDGZQ_FQ>
+        <JSYDGZQ_TZQHDB>
+            <MODELPATH value="土地利用建设用地空间管制区调整前后对比图.mxd" />
+            <MAPNAME value="建设用地空间管制区调整前后对比图" />
+        </JSYDGZQ_TZQHDB>
+        <TDZZ>
+            <MODELPATH value="土地利用土地整治规划图.mxd" />
+            <MAPNAME value="土地整治规划图" />
+        </TDZZ>
+        <ZTGH>
+            <MODELPATH value="土地利用总体规划图.mxd" />
+            <MAPNAME value="总体规划图" />
+        </ZTGH>
+        <ZTGHXZ>
+            <MODELPATH value="土地利用总体规划现状图.mxd" />
+            <MAPNAME value="总体规划现状图" />
+        </ZTGHXZ>
+        <ZDJSXMGH>
+            <MODELPATH value="土地利用重点建设项目规划图.mxd" />
+            <MAPNAME value="重点建设项目规划图" />
+        </ZDJSXMGH>
+        <ZTGHJBT>
+            <MODELPATH_ANALYSIS value="土地利用总体规划局部图A4V.mxd" />
+            <MODELPATH_NO_ANALYSIS value="土地利用总体规划局部图A4V(标准).mxd" />
+            <PRODUCER value="lucc1" />
+            <CHECKER value="lucc1" />
+            <MAPNAME value="XX镇土地利用总体规划局部图（2006-2020年）" />
+            <MAPDL value="G214" />
+            <MAPLABEL_FIELD value="DK_MC" />
+        </ZTGHJBT>
+    </PageLayoutConfig>
+</Config>

@@ -1,0 +1,5 @@
+本文件夹保存的是登陆界面的资源：
+(1)背景图片   loginbg.bmp     分辨率：520*280 
+(2)登陆按钮   loginbutton_hover.bmp   loginbutton_normal.bmp    loginbutton_visited.bmp  分辨率：66*65
+(3)取消按钮   cancelbutton_hover.bmp  cancelbutton_normal.bmp   cancelbutton_visited.bmp 分辨率：49*45
+注意替换前后，名称保持一致

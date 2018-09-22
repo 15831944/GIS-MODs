@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqLandPlanCmd.LPGridDockWinCmd.1 = s 'LPGridDockWinCmd Class'
+	{
+		CLSID = s '{C2719076-E1A4-4C1F-8E53-EBF365B8FAAE}'
+	}
+	GisqLandPlanCmd.LPGridDockWinCmd = s 'LPGridDockWinCmd Class'
+	{
+		CLSID = s '{C2719076-E1A4-4C1F-8E53-EBF365B8FAAE}'
+		CurVer = s 'GisqLandPlanCmd.LPGridDockWinCmd.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C2719076-E1A4-4C1F-8E53-EBF365B8FAAE} = s 'LPGridDockWinCmd Class'
+		{
+			ProgID = s 'GisqLandPlanCmd.LPGridDockWinCmd.1'
+			VersionIndependentProgID = s 'GisqLandPlanCmd.LPGridDockWinCmd'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8D8A6990-8BAF-47B3-8D12-EB1432787AFD}'
+		}
+	}
+}

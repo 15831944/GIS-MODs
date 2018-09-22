@@ -1,0 +1,26 @@
+HKCR
+{
+	GisqExpCoordCmd.ExpCoordCmd.1 = s 'ExpCoordCmd Class'
+	{
+		CLSID = s '{DA267591-10E1-4A8A-820C-DE600D2A3E8F}'
+	}
+	GisqExpCoordCmd.ExpCoordCmd = s 'ExpCoordCmd Class'
+	{
+		CLSID = s '{DA267591-10E1-4A8A-820C-DE600D2A3E8F}'
+		CurVer = s 'GisqExpCoordCmd.ExpCoordCmd.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {DA267591-10E1-4A8A-820C-DE600D2A3E8F} = s 'ExpCoordCmd Class'
+		{
+			ProgID = s 'GisqExpCoordCmd.ExpCoordCmd.1'
+			VersionIndependentProgID = s 'GisqExpCoordCmd.ExpCoordCmd'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{4F55EACE-F865-4B5F-BF71-C62412C90AE7}'
+		}
+	}
+}
